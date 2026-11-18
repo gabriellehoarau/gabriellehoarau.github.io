@@ -223,7 +223,7 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 .case-hero .label{color:var(--sandy)}
 .case-hero h1{font-family:var(--f-display);text-transform:uppercase;color:var(--cream);font-size:clamp(3.4rem,11vw,8rem);line-height:.9;margin-top:10px}
 .case-hero .tagline{font-family:var(--f-script);color:var(--magenta);font-size:clamp(2.4rem,6vw,3.8rem);line-height:1;margin-top:-.2em;margin-left:.6em;transform:rotate(-3deg);transform-origin:left}
-.case-hero .sub{max-width:40em;color:var(--on-dark-2);margin-top:20px;font-size:1.02rem}
+.case-hero .sub{max-width:none;color:var(--on-dark-2);margin-top:20px;font-size:1.02rem}
 .case-hero .bigstar{position:absolute;right:max(20px,6vw);top:40px;font-size:clamp(70px,12vw,140px);color:var(--sandy);opacity:.9}
 .fiche{margin:34px 0 0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
 .fiche div{background:var(--cream);color:var(--bordeaux);border-radius:14px;overflow:hidden;min-width:0}
@@ -239,13 +239,13 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 .chap > header .label .star{color:var(--sandy);font-size:.9rem}
 .chap > header h2{font-family:var(--f-display);text-transform:uppercase;color:var(--bordeaux);font-size:clamp(1.8rem,3vw,2.3rem);line-height:1;margin-top:14px}
 .chap .c{min-width:0;display:grid;gap:22px}
-.chap .c > p{max-width:42em;color:var(--muted)}
+.chap .c > p{max-width:none;color:var(--muted)}
 .chap .c > p strong,.role-list strong{color:var(--ink);font-weight:600}
 @media (max-width:860px){.chap{grid-template-columns:1fr;gap:20px;padding-block:40px}.chap > header{position:static}}
 
 .quote{font-family:var(--f-display);text-transform:uppercase;font-size:clamp(1.7rem,3.8vw,2.6rem);line-height:1.02;color:var(--bordeaux);max-width:20em;position:relative;padding-left:24px}
 .chap .c > p.quote,.chap .quote{font-family:var(--f-body);text-transform:none;font-weight:500;font-style:italic;font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.55;color:var(--bordeaux);padding-left:20px;max-width:36em}
-.ew-block > p:not([class]){max-width:44em;color:var(--muted)}
+.ew-block > p:not([class]){max-width:none;color:var(--muted)}
 .ew-block > p:not([class]) strong{color:var(--ink);font-weight:600}
 .ew-block > .quote:not(.slogan){font-family:var(--f-body);text-transform:none;font-weight:500;font-style:italic;font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.55;color:var(--bordeaux);padding-left:20px;max-width:none}
 .facts-src{font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--magenta);margin-bottom:-10px}
@@ -294,7 +294,7 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 @media (max-width:600px){.panel-story{grid-template-columns:1fr;gap:6px;padding:16px 18px}.panel-story .ps-n{font-size:1.8rem!important}}
 .panel-story .ps-n{font-family:var(--f-display);font-size:2.4rem;line-height:1;color:var(--magenta)}
 .panel-story .ps-t{display:block;font-family:var(--f-display);font-weight:400;text-transform:uppercase;color:var(--bordeaux);font-size:1.3rem;line-height:1;margin-bottom:6px}
-.panel-story .ps-p{margin:0;color:var(--muted);line-height:1.55;max-width:46em}
+.panel-story .ps-p{margin:0;color:var(--muted);line-height:1.55;max-width:none}
 .panel-story .ps-mine{display:inline-block;margin-left:10px;vertical-align:middle;background:var(--magenta);color:#fff;border-radius:999px;padding:3px 9px;font-family:var(--f-body);font-size:.58rem;font-weight:700;letter-spacing:.14em}
 .srow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;position:relative}
 .srow li{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 16px 18px;display:grid;gap:6px;align-content:start;position:relative}
@@ -352,9 +352,6 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 .laitiere-abri{max-width:560px}
 .laitiere-abri figure{margin:0}
 @media (max-width:600px){.facts,.objs{grid-template-columns:1fr 1fr!important}.facts > :last-child:nth-child(odd),.objs > :last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 6px);justify-self:center}}
-.ew-block > p:not([class]),.ew-block > p.ew-p,.ew-note,.pos-txt > p:not(.quote),.brief p,.result p,.txt p:not(.label):not(.prompt):not(.hint){max-width:38em;line-height:1.75}
-.ew-block{gap:18px}
-.result p+p{margin-top:12px}
 .quote.slogan{font-family:var(--f-script);text-transform:none;font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.15;color:var(--magenta);max-width:none}
 .quote::before{content:"";position:absolute;left:0;top:.1em;bottom:.1em;width:4px;border-radius:2px;background:var(--magenta)}
 .steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:s}
@@ -369,7 +366,7 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 .fact span{font-size:.86rem}
 .fact.txt b{font-size:1.5rem;color:var(--sandy)}
 .role-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.role-list li{padding-left:30px;position:relative;max-width:42em;color:var(--muted)}
+.role-list li{padding-left:30px;position:relative;max-width:none;color:var(--muted)}
 .role-list li::before{content:"";position:absolute;left:4px;top:.72em;width:12px;height:2px;background:var(--magenta)}
 .result{background:var(--bordeaux);color:var(--on-dark-2);border-radius:22px;padding:26px 28px;max-width:none;position:relative;overflow:hidden}
 .result .who{color:var(--sandy);margin-bottom:10px}
@@ -471,7 +468,7 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
 .ew-res strong{color:var(--cream)}
 .ew-block{padding-block:56px;border-bottom:1px solid var(--line);display:grid;gap:22px}
 .ew-h{font-family:var(--f-display);text-transform:uppercase;color:var(--bordeaux);font-size:clamp(2rem,4.6vw,3.2rem);line-height:1}
-.ew-p,.ew-two p,.ew-note{color:var(--muted);max-width:44em}
+.ew-p,.ew-two p,.ew-note{color:var(--muted);max-width:none}
 .ew-p strong,.ew-two strong{color:var(--ink);font-weight:600}
 .ew-two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 .ew-note{border-left:3px solid var(--magenta);padding-left:16px}
@@ -752,10 +749,10 @@ dialog.lb.has-info #lb-cap{display:none}
 
     <section class="ew-block rv">
       <h2 class="ew-h">Le point de départ</h2>
-      <p class="ew-p">Pendant la veille, un constat : la mode éco-responsable parle des sols et des cultures, <strong>presque jamais des océans</strong>.</p>
-      <p class="ew-p">C'est devenu notre angle : chaque achat permet de <strong>parrainer un corail artificiel</strong> et de suivre son évolution dans le récif.</p>
+      <p class="ew-p">Pendant la veille, on a remarqué une chose : presque toutes les marques de mode éco-responsable centrent leur engagement sur les sols et les cultures : coton bio, agriculture raisonnée… Très peu s'engagent pour les océans.</p>
+      <p class="ew-p">C'est devenu notre angle. Avec Ethikwear, chaque achat permet de <strong>parrainer un corail artificiel</strong> et de suivre son évolution dans le récif.</p>
       <p class="quote slogan">Tissé pour la mer, pensé pour demain</p>
-      <p class="ew-note">J'ai coordonné le binôme et réalisé <strong>la stratégie marketing, le logo et la maquette du site</strong>. La veille et le plan de communication, on les a faits à deux.</p>
+      <p class="ew-note">J'ai coordonné le binôme (organisation, échéances, relecture avant chaque rendu) tout en réalisant mes propres parties : <strong>la stratégie marketing, le logo et toute la maquette du site</strong>. La veille et le plan de communication, on les a construits à deux.</p>
     </section>
 
     <section class="ew-block rv">
@@ -784,8 +781,7 @@ dialog.lb.has-info #lb-cap{display:none}
 
     <section class="ew-block rv">
       <h2 class="ew-h">L'univers graphique</h2>
-      <p class="ew-p">Notre référence : le « less but better » du Bauhaus et de Dieter Rams.</p>
-      <p class="ew-p">Pour une marque qui refuse le superflu, <strong>un logo simple, des lignes claires et une palette réduite au minimum</strong>.</p>
+      <p class="ew-p">Notre référence : le « less but better » du Bauhaus et de Dieter Rams. Pour une marque qui refuse le superflu, le design ne devait pas en rajouter. Pas de corail partout, pas d'effets superflus : <strong>un logo simple, des lignes claires et une palette réduite au minimum.</strong></p>
       <div class="ug">
         <div>
           <span class="label">Les couleurs</span>
@@ -824,7 +820,7 @@ dialog.lb.has-info #lb-cap{display:none}
 
     <section class="ew-block rv" style="border-bottom:0">
       <h2 class="ew-h">Ce que j'en retiens</h2>
-      <div class="result"><p>L'angle trouvé pendant la veille, les océans, se retrouve partout : <strong>dans le slogan, dans le logo et jusqu'au parrainage d'un corail</strong>.</p><p>Construire une marque, c'est garder ce fil du début à la fin.</p></div>
+      <div class="result"><p>L'angle trouvé pendant la veille, les océans, se retrouve à chaque étape : <strong>dans le slogan, dans le corail du logo et jusqu'au parrainage d'un corail à chaque achat</strong>. Construire une marque, c'est garder ce fil du début à la fin.</p></div>
     </section>
   </div>
 </template>
@@ -847,8 +843,7 @@ dialog.lb.has-info #lb-cap{display:none}
     <section class="ew-block rv">
       <h2 class="ew-h">Un bel emplacement, aucune identité</h2>
       <p class="quote">Comment passer d'une adresse sur notre chemin à une adresse pour laquelle on fait le chemin ?</p>
-      <p>Premier constat de mon audit : la brasserie a <strong>un vrai potentiel, mais aucune identité marquée</strong>.</p>
-      <p>Pas de direction artistique, un site lent, et rien dans le lieu ne rappelle les fleurs de son nom.</p>
+      <p>Premier constat de mon audit : la brasserie a <strong>un vrai potentiel, mais aucune identité marquée</strong>. Pas de direction artistique, un site lent et pensé pour l'ordinateur, et rien dans le lieu ne rappelle les fleurs de son nom.</p>
       <p class="facts-src">Relevé pendant l'audit, sur place et en ligne</p>
       <div class="facts">
         <div class="fact"><b>40 m</b><span>de la gare : on y entre parce que c'est là, pas parce qu'on l'a choisi</span></div>
@@ -861,8 +856,7 @@ dialog.lb.has-info #lb-cap{display:none}
       <h2 class="ew-h">La brasserie florale</h2>
       <div class="pos-two">
         <div class="pos-txt">
-  <p>Plutôt que de changer de nom, j'ai choisi de <strong>lui donner enfin du sens</strong>.</p>
-  <p>La brasserie devient un refuge floral : déco végétale, fleurs comestibles à la carte, brunchs et horaires élargis.</p>
+  <p>Plutôt que de changer de nom, j'ai choisi de <strong>lui donner enfin du sens</strong>. La Brasserie des Fleurs devient un refuge floral moderne et lumineux : décoration végétale, fleurs comestibles à la carte, brunchs le week-end et horaires élargis pour capter le public du soir.</p>
   <p class="quote">Un refuge floral moderne où l'on vient pour respirer, savourer et se reconnecter</p>
         </div>
         <figure class="pos-mood"><img class="zoom" src="img/bdf-moodboard.webp" alt="Moodboard : terrasse végétale, fauteuils ocre, plats aux fleurs comestibles, palette ivoire, terracotta et vert olive" loading="lazy"><figcaption>Moodboard de l'ambiance visée</figcaption></figure>
@@ -946,11 +940,9 @@ dialog.lb.has-info #lb-cap{display:none}
   <div class="wrap">
     <section class="ew-block rv">
       <h2 class="ew-h">Le trouble identitaire face à l'IA</h2>
-      <p>La consigne : ajouter une retouche IA à nos portraits. On l'a poussée plus loin et <strong>fait de l'IA le sujet de l'expo</strong>.</p>
-      <p>De plus en plus de gens parlent à une IA comme à un confident. On a voulu montrer ce que ça fait à l'identité, sans juger.</p>
+      <p>Au départ, la consigne était d'ajouter une retouche IA à nos portraits. On l'a poussée plus loin. Autour de nous, de plus en plus de gens parlent à une IA comme à un confident. On a voulu montrer ce que ça fait à l'identité : la dépendance affective, le dédoublement, l'isolement. Sans juger, juste en observant.</p>
       <p class="quote">L'IA, partenaire ou concurrente de l'imagination humaine ?</p>
-      <p>Les <strong>5 tableaux</strong>, réalisés en équipe, racontent une histoire : <strong>comment une personne devient peu à peu dépendante de l'IA</strong>.</p>
-      <p>Elle soigne son image, se sent seule, trouve du réconfort auprès de l'écran, puis finit par ne faire plus qu'un avec la machine.</p>
+      <p>Les <strong>5 tableaux</strong>, réalisés en équipe, racontent une seule histoire : <strong>comment une personne devient peu à peu dépendante de l'IA</strong>. Elle soigne d'abord son image, puis se sent seule au milieu des autres. Elle trouve alors du réconfort auprès de l'écran, jusqu'à perdre le contact avec elle-même et finir par ne faire plus qu'un avec la machine.</p>
       <p><strong>Le tableau 2, « Confusion », est ma retouche.</strong></p>
       <div class="panels" id="panels">
         <button type="button" data-story="La version parfaitement contrôlée de soi. En arrière-plan, un double numérique magnifié montre comment l'IA amplifie nos idéaux : une identité lissée, rassurante, validée par les réseaux."><img src="img/rc-final-t1.webp" alt="Tableau 1, Identité perçue" loading="lazy"><span class="n">01</span><span class="cap"><b>Identité perçue</b><small>Une version contrôlée de soi</small></span></button>
@@ -969,7 +961,7 @@ dialog.lb.has-info #lb-cap{display:none}
         <div class="compare" style="--p:50%"><img src="img/rc-t2-brut.webp" alt="Photo d'origine, sortie de l'appareil : femme debout devant un drap éclairé en violet" loading="lazy"><img class="after" src="img/rc-t2-apres.webp" alt="Version exposée : la même femme seule au milieu d'une foule floue" loading="lazy"><span class="handle"></span><span class="tagL">Photo brute</span><span class="tagR">Version finale</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 2"></div>
         <div class="txt">
           <p class="label" style="color:var(--magenta)">Tableau 2 · Confusion</p>
-          <p>Le personnage seul face au monde.</p><p>Sur <strong>Photoshop</strong>, j'ai effacé les plis du drap, agrandi le fond et passé l'image en noir et blanc. L'<strong>IA</strong> a ajouté la foule, que j'ai retravaillée pour un rendu naturel.</p>
+          <p>Le personnage seul face au monde. Je suis partie de la photo brute : sur <strong>Photoshop</strong>, j'ai effacé les plis du drap, agrandi le fond et passé l'image en noir et blanc. L'<strong>IA</strong> a ensuite ajouté une foule floue en mouvement, que j'ai retravaillée pour que l'incrustation paraisse naturelle.</p>
           <p class="prompt">« Entoure le personnage d'une foule en mouvement. La foule doit être floue, on ne doit pas reconnaître les individus. Garde le personnage en noir et blanc. Je ne veux pas qu'il soit juste “décalqué”. Le sentiment à retrouver : il se sent perdu et seul au milieu de tout ce monde. »</p>
           <p class="hint" style="text-align:left">Glissez pour comparer</p>
         </div>
@@ -978,14 +970,14 @@ dialog.lb.has-info #lb-cap{display:none}
         <div class="compare" style="--p:50%"><img src="img/rc-t4-brut.webp" alt="Photo d'origine, sortie de l'appareil : portrait en contre-jour devant un fond clair" loading="lazy"><img class="after" src="img/rc-t4-gabrielle.webp" alt="Ma version : portrait bleu nuit dont la moitié du visage se désintègre en pixels" loading="lazy"><span class="handle"></span><span class="tagL">Photo brute</span><span class="tagR">Ma version</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 4"></div>
         <div class="txt">
           <p class="label" style="color:var(--magenta)">Tableau 4 · Face cachée</p>
-          <p>Ce tableau devait montrer une personne qui s'efface.</p><p>Dans <strong>ma propre version</strong>, je montre aussi ce que cet effacement a de néfaste : le visage se désintègre et <strong>elle perd son humanité</strong>. Presque effrayant, et c'est voulu.</p>
+          <p>Ce tableau devait montrer une personne qui s'efface. Dans <strong>ma propre version</strong>, j'ai voulu aller plus loin et montrer ce que cet effacement a de néfaste : son visage se désintègre en pixels, son regard se vide, et <strong>elle perd peu à peu son humanité</strong>. Le résultat en devient presque effrayant, et c'est voulu.</p>
         </div>
       </div>
     </section>
 
     <section class="ew-block rv" style="border-bottom:0">
       <h2 class="ew-h">Une première avec l'IA</h2>
-      <div class="result"><p>J'ai appris à <strong>documenter un travail créatif fait avec l'IA</strong>, pour montrer la part humaine. Et qu'en équipe, tout se joue aussi dans la communication.</p><p>Si c'était à refaire, je développerais davantage certains tableaux : on ne ressent pas toujours assez ce qu'on voulait faire passer. Mais pour une première utilisation de ces outils, <strong>j'en suis fière</strong>.</p></div>
+      <div class="result"><p>J'en retiens deux choses. Savoir <strong>documenter un travail créatif fait avec l'IA</strong> : chaque prompt et chaque retouche sont tracés, pour montrer la part humaine. Et qu'un projet d'équipe se joue aussi dans la communication : quand ça coinçait, une réunion franche a permis de repartir.</p><p>Si c'était à refaire, je développerais davantage certains tableaux : on ne ressent pas toujours assez ce qu'on voulait faire passer. Mais pour une première utilisation de ces outils, <strong>j'en suis fière</strong>.</p></div>
     </section>
 
   </div>
@@ -1009,8 +1001,7 @@ dialog.lb.has-info #lb-cap{display:none}
     <section class="ew-block rv">
       <h2 class="ew-h">Un escape game inversé</h2>
       <p class="quote">Et si le but n'était pas de s'échapper… mais de les libérer ?</p>
-      <p>Dans « Escape The Cage », les visiteurs ne cherchent pas à sortir : ils <strong>accompagnent les animaux vers leur liberté</strong>.</p>
-      <p>Le message : préparer un futur où les zoos ne seront plus nécessaires.</p>
+      <p>Dans « Escape The Cage », les visiteurs ne cherchent pas à sortir : ils <strong>accompagnent les animaux vers leur liberté</strong>. En parcourant le parc, ils explorent, observent et découvrent un message : préparer un futur où les zoos ne seront plus nécessaires.</p>
       <p class="facts-src">Le jeu en bref</p>
       <div class="facts">
         <div class="fact"><b>5 sens</b><span>La vue, l'ouïe, l'odorat, le toucher et le goût : chaque énigme se résout grâce à l'un d'eux.</span></div>
@@ -1064,8 +1055,7 @@ dialog.lb.has-info #lb-cap{display:none}
   <div class="wrap">
     <section class="ew-block rv">
       <h2 class="ew-h">Un logo attachant mais peu lisible</h2>
-      <p>J'ai tout de suite aimé la signature manuscrite rose de l'ancien logo : elle avait la douceur de la marque.</p>
-      <p>Mais elle devenait <strong>illisible en petit format</strong>, n'avait <strong>pas de symbole</strong> pour les réseaux et ne disait rien du virage zéro déchet.</p>
+      <p>En découvrant l'ancien logo, j'ai tout de suite aimé sa signature manuscrite rose : elle avait la douceur de la marque. Mais en le réduisant, je me suis rendu compte qu'il devenait <strong>illisible en petit format</strong>.<br>Il n'avait pas non plus de <strong>symbole pour les réseaux sociaux</strong>, et rien ne racontait son virage vers le zéro déchet.</p>
       <p class="quote">Transformer une signature douce en une empreinte lisible et moderne</p>
     </section>
 
@@ -1119,16 +1109,14 @@ dialog.lb.has-info #lb-cap{display:none}
   <div class="wrap">
     <section class="ew-block rv">
       <h2 class="ew-h">La copy stratégie</h2>
-      <p>La consigne : <strong>choisir une caractéristique des yaourts La Laitière et construire une copy stratégie autour</strong>.</p>
-      <p>On a choisi leur côté <strong>naturel</strong>.</p>
+      <p>La consigne : <strong>choisir une caractéristique des yaourts La Laitière et construire une copy stratégie autour</strong>.<br>On a choisi leur côté <strong>naturel</strong>. Il fallait définir ce qu'on veut dire, l'ambiance à faire ressentir et l'idée qui relie le tout :</p>
       <div class="facts">
         <div class="fact txt"><b>Axe</b><span>Montrer au public que le yaourt est naturel.</span></div>
         <div class="fact txt"><b>Évocation</b><span>Douceur, lumière, sons de la nature, images lentes, la laitière comme repère de marque.</span></div>
         <div class="fact txt"><b>Thème</b><span>Un yaourt sorti tout droit de la nature.</span></div>
       </div>
       <p class="copy-concept"><span>Le concept</span>« Tellement naturel qu'on pourrait le cueillir directement dans la nature »</p>
-      <p>De là est née <strong>mon idée de cascade de lait</strong>, qui structure toute la campagne. J'ai aussi participé au scénario et à l'accroche.</p>
-      <p>Sans IA pour les idées : tout est 100 % humain.</p>
+      <p>De là est née <strong>mon idée de cascade de lait</strong>, qui structure toute la campagne. J'ai aussi participé à l'écriture du scénario du spot et de l'accroche. La consigne interdisait l'IA pour trouver les idées : tout est 100 % humain, l'IA n'a servi qu'aux visuels de présentation.</p>
     </section>
 
     <section class="ew-block rv">
@@ -1140,8 +1128,7 @@ dialog.lb.has-info #lb-cap{display:none}
         <div><p class="t">Plan 3</p><p>La cascade se divise en trois flux : vanille à gauche, nature au milieu, citron à droite. Chacun remplit son pot.</p></div>
         <div><p class="t">Plan 4</p><p>Au premier plan, la laitière récupère un pot et le déguste.</p></div>
       </div>
-      <p>La campagne se décline aussi en <strong>affiche</strong>, ici en abribus.</p>
-      <p>La laitière récolte le yaourt sous une cascade : <strong>tellement naturel qu'on peut le cueillir</strong>.</p>
+      <p>La campagne se décline aussi en <strong>affiche</strong>. Voici celle que j'ai réalisée, mise en situation dans un abribus.<br>L'idée : la laitière récolte le yaourt directement sous une cascade, au milieu des citronniers, pour montrer que <strong>le produit est tellement naturel qu'on peut le cueillir dans la nature</strong>.</p>
       <div class="laitiere-abri"><figure><img class="zoom" src="img/laitiere-abribus.webp" alt="Affiche dans un abribus : la laitière tient un pot devant une cascade" loading="lazy"><figcaption>Affiche en abribus</figcaption></figure></div>
       <p style="font-size:.8rem;font-style:italic">Visuel généré par IA pour la présentation.</p>
     </section>
