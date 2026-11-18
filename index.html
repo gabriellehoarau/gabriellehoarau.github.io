@@ -1,6 +1,5 @@
 <!doctype html><html lang="fr"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><title>Gabrielle Hoarau · Portfolio</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body>
 <title>Gabrielle Hoarau Portfolio</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
@@ -26,8 +25,8 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--cream)}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bordeaux)}
 a{color:inherit}
 img{display:block;max-width:100%;height:auto}
 h1,h2,h3{margin:0;font-weight:400;text-wrap:balance}
@@ -245,6 +244,115 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 @media (max-width:860px){.chap{grid-template-columns:1fr;gap:20px;padding-block:40px}.chap > header{position:static}}
 
 .quote{font-family:var(--f-display);text-transform:uppercase;font-size:clamp(1.7rem,3.8vw,2.6rem);line-height:1.02;color:var(--bordeaux);max-width:20em;position:relative;padding-left:24px}
+.chap .c > p.quote,.chap .quote{font-family:var(--f-body);text-transform:none;font-weight:500;font-style:italic;font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.55;color:var(--bordeaux);padding-left:20px;max-width:36em}
+.ew-block > p:not([class]){max-width:44em;color:var(--muted)}
+.ew-block > p:not([class]) strong{color:var(--ink);font-weight:600}
+.ew-block > .quote:not(.slogan){font-family:var(--f-body);text-transform:none;font-weight:500;font-style:italic;font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.55;color:var(--bordeaux);padding-left:20px;max-width:none}
+.facts-src{font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--magenta);margin-bottom:-10px}
+.target{display:grid;grid-template-columns:220px 1fr;gap:36px;align-items:center;max-width:760px}
+.t-rings .r3,.t-rings .r2,.t-rings .r1{display:grid;place-items:center;border-radius:50%}
+.t-rings .r3{width:220px;height:220px;background:var(--cream-2);border:2px dashed rgba(85,12,24,.25)}
+.t-rings .r2{width:146px;height:146px;background:var(--sandy)}
+.t-rings .r1{width:72px;height:72px;background:var(--magenta);box-shadow:0 0 0 6px rgba(211,82,105,.18)}
+.t-legend{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.t-legend li{display:grid;gap:2px;padding-left:26px;position:relative}
+.t-legend li::before{content:"";position:absolute;left:0;top:3px;width:14px;height:14px;border-radius:50%}
+.t-legend .l1::before{background:var(--magenta)}
+.t-legend .l2::before{background:var(--sandy)}
+.t-legend .l3::before{background:var(--cream-2);border:2px dashed rgba(85,12,24,.35);width:10px;height:10px}
+.t-legend .label{color:var(--magenta)}
+.t-legend b{color:var(--bordeaux);font-weight:700}
+.t-legend li > span:last-child{color:var(--muted);font-size:.9rem;line-height:1.5}
+@media (max-width:600px){.target{grid-template-columns:104px 1fr;gap:18px;align-items:start}.t-rings{position:sticky;top:90px}.t-rings .r3{width:104px;height:104px}.t-rings .r2{width:68px;height:68px}.t-rings .r1{width:32px;height:32px;box-shadow:0 0 0 4px rgba(211,82,105,.18)}.t-legend{gap:14px}.t-legend li{padding-left:22px}.t-legend li::before{width:12px;height:12px}.t-legend .l3::before{width:8px;height:8px}.t-legend li > span:last-child{font-size:.85rem}}
+.pos-two{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.pos-txt{display:grid;gap:18px}
+.pos-txt > p:not(.quote){color:var(--muted)}
+.pos-txt > p:not(.quote) strong{color:var(--ink);font-weight:600}
+.pos-txt .quote{max-width:none;font-family:var(--f-body);text-transform:none;font-weight:500;font-style:italic;font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.55;color:var(--bordeaux);padding-left:20px}
+.pos-mood{margin:0;min-width:0;order:-1;display:flex;flex-direction:column}
+.pos-mood figcaption{order:-1;margin:0 0 10px}
+.pos-mood img{width:100%;border-radius:14px;border:1px solid var(--line)}
+@media (max-width:860px){.pos-two{grid-template-columns:1fr}}
+.bdf-logos{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:1fr 1fr;gap:10px;max-width:520px;width:100%;justify-self:end}
+.bdf-logos figure{margin:0;position:relative;border-radius:16px;overflow:hidden;background:#EAE6DA;min-height:150px}
+.bdf-logos figure.m{grid-row:span 2;background:#F7F3EB}
+.bdf-logos img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bdf-logos figure.m img,.bdf-logos figure:nth-child(2) img{object-fit:cover;padding:0}
+.bdf-logos figure:nth-child(2){background:#EDE6DC}
+.bdf-logos figure:nth-child(3){background:#8C9076}
+.bdf-logos figure.m figcaption{bottom:auto;top:10px}
+.bdf-logos figure:nth-child(3) img{object-fit:cover}
+.bdf-logos{min-height:360px}
+.bdf-logos figcaption{position:absolute;left:10px;bottom:10px;margin:0;background:rgba(255,255,255,.88);color:var(--bordeaux);border-radius:999px;padding:4px 10px;font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+@media (max-width:860px){.bdf-logos{justify-self:stretch;max-width:none}}
+@media (max-width:480px){.bdf-logos{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}.bdf-logos figure.m{grid-column:1/-1;grid-row:auto;min-height:420px}}
+.panels button.mine{box-shadow:inset 0 0 0 3px var(--magenta)}
+.panels .mine-tag{position:absolute;top:10px;right:10px;background:var(--magenta);color:#fff;border-radius:999px;padding:4px 10px;font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;z-index:2}
+.panels button.mine:not(.on) .mine-tag{right:auto;left:50%;transform:translateX(-50%);top:auto;bottom:10px;padding:4px 6px;font-size:.5rem}
+@media (max-width:640px){.panels button.mine:not(.on) .mine-tag{left:auto;right:10px;transform:none;top:50%;bottom:auto;margin-top:-10px;font-size:.58rem;padding:4px 10px}}
+.panel-story{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;background:var(--cream-2);border-radius:18px;padding:18px 22px;min-height:96px}
+@media (max-width:600px){.panel-story{grid-template-columns:1fr;gap:6px;padding:16px 18px}.panel-story .ps-n{font-size:1.8rem!important}}
+.panel-story .ps-n{font-family:var(--f-display);font-size:2.4rem;line-height:1;color:var(--magenta)}
+.panel-story .ps-t{display:block;font-family:var(--f-display);font-weight:400;text-transform:uppercase;color:var(--bordeaux);font-size:1.3rem;line-height:1;margin-bottom:6px}
+.panel-story .ps-p{margin:0;color:var(--muted);line-height:1.55;max-width:46em}
+.panel-story .ps-mine{display:inline-block;margin-left:10px;vertical-align:middle;background:var(--magenta);color:#fff;border-radius:999px;padding:3px 9px;font-family:var(--f-body);font-size:.58rem;font-weight:700;letter-spacing:.14em}
+.srow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;position:relative}
+.srow li{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 16px 18px;display:grid;gap:6px;align-content:start;position:relative}
+.srow li:not(:last-child)::after{content:"";position:absolute;right:-9px;top:28px;width:8px;height:2px;background:var(--magenta)}
+.srow i{font-style:normal;font-family:var(--f-display);font-size:1.5rem;line-height:1;color:var(--magenta)}
+.srow b{color:var(--bordeaux);font-weight:700;font-size:.95rem;line-height:1.25}
+.srow span{color:var(--muted);font-size:.85rem;line-height:1.45}
+@media (max-width:980px){.srow{grid-template-columns:repeat(3,minmax(0,1fr))}.srow li::after{display:none}}
+@media (max-width:560px){.srow{grid-template-columns:1fr 1fr}.srow li:last-child{grid-column:1/-1}}
+.brief-card{background:#fffdf8;border:1px solid var(--line);border-radius:6px;padding:22px 22px 14px;position:relative;transform:rotate(-1.2deg);box-shadow:0 10px 24px rgba(62,8,17,.08);display:grid;gap:4px;max-width:440px;margin:14px 6px 6px}
+.brief-card .bc-tag{position:absolute;top:-12px;left:18px;background:var(--sandy);color:var(--bordeaux);font-family:var(--f-script);font-size:1.35rem;line-height:1;padding:4px 12px 6px;border-radius:4px;transform:rotate(2deg)}
+.bc-row{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--line)}
+.bc-row:last-child{border-bottom:0}
+.bc-row b{display:block;color:var(--bordeaux);font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.bc-row div span{color:var(--muted);font-size:.9rem}
+.bc-ico{display:grid;place-items:center}.bc-ico svg{width:34px;height:48px}
+.bc-type{display:flex;flex-direction:column;align-items:center;line-height:1;color:#6A5F59}
+.bc-type i{font-family:var(--f-script);font-style:normal;font-size:1.1rem;color:#6b7a58}
+.bc-type em{font-style:normal;font-family:var(--f-body);font-weight:600;letter-spacing:.14em;font-size:.68rem}
+.bc-dots{display:flex;gap:6px;justify-content:center}.bc-dots i{width:20px;height:20px;border-radius:50%;border:1px solid rgba(0,0,0,.08)}
+.pistes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:end;background:var(--cream-2);border-radius:22px;padding:36px 36px 26px}
+.pistes figure{margin:0;min-width:0;display:grid;gap:12px;justify-items:center}
+.pistes img{width:100%;max-width:240px;height:200px;object-fit:contain;mix-blend-mode:multiply;transition:transform .3s}
+.pistes figure:hover img{transform:scale(1.04)}
+.pistes figcaption{text-align:center;font-family:var(--f-script);font-size:1.5rem;line-height:1;color:var(--bordeaux);text-transform:none;letter-spacing:0;margin:0}
+@media (max-width:640px){.pistes{grid-template-columns:1fr 1fr;padding:24px 18px 18px;gap:18px}.pistes img{height:150px}.pistes figure:last-child{grid-column:1/-1}}
+.loly-id{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:200px 200px auto;gap:12px}
+.loly-id > div{position:relative;border-radius:20px;overflow:hidden;display:grid;place-items:center}
+.li-main{grid-row:span 2;background:#fff;border:1px solid var(--line)}
+.loly-id > div > img{position:absolute;inset:18% 14%;width:72%;height:64%;object-fit:contain;max-width:none}
+.li-main img{inset:12% 10% 16%!important;width:80%!important;height:72%!important}
+.li-word{grid-column:span 2;background:#fff;border:1px solid var(--line)}
+.li-word img{filter:none}
+.li-icon{background:#fff;border:1px solid var(--line)}
+.li-black{background:#fff;border:1px solid var(--line)}
+.loly-id .li-tag{background:var(--cream-2)}
+@media (max-width:640px){.li-word img{inset:22% 12% 30%!important;width:76%!important;height:48%!important}}
+.li-black img{filter:brightness(0);inset:14% 14% 22%!important;width:72%!important;height:64%!important}
+.li-icon img{inset:16% 20% 22%!important;width:60%!important;height:62%!important}
+.loly-id > .li-colors{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;place-items:stretch;border-radius:14px;height:52px}
+.li-colors span{width:100%;height:100%;display:flex;align-items:center;justify-content:space-between;padding:0 18px;color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.14em}
+.li-colors b{font-weight:700;text-transform:uppercase}
+.li-tag{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.9);color:var(--bordeaux);border-radius:999px;padding:4px 10px;font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+@media (max-width:640px){.loly-id{grid-template-columns:1fr 1fr;grid-template-rows:auto}.li-main{grid-column:1/-1;grid-row:auto;height:260px}.li-word{grid-column:1/-1;height:150px}.li-icon,.li-black{height:150px}}
+.loly-slogan{margin:6px 0 0;text-align:center;font-family:var(--f-body);font-weight:600;text-transform:uppercase;letter-spacing:.22em;font-size:clamp(.95rem,1.8vw,1.2rem);color:#E52284;display:grid;gap:8px}
+.loly-slogan span{font-size:.62rem;letter-spacing:.2em;color:var(--muted);font-weight:700}
+.copy3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.copy3 > div{background:#fff;border:1px solid var(--line);border-top:4px solid var(--magenta);border-radius:16px;padding:16px 18px 18px;display:grid;gap:6px;align-content:start}
+.copy3 .label{color:var(--magenta)}
+.copy3 p{margin:0;color:var(--muted);line-height:1.55}
+.copy3 strong{color:var(--bordeaux);font-weight:700}
+.copy-concept{background:var(--bordeaux);color:var(--cream);border-radius:20px;padding:24px 28px;margin:0;display:grid;gap:8px;font-family:var(--f-display);text-transform:uppercase;font-size:clamp(1.3rem,2.6vw,1.9rem);line-height:1.1}
+.copy-concept span{font-family:var(--f-body);font-size:.66rem;font-weight:700;letter-spacing:.18em;color:var(--sandy)}
+@media (max-width:760px){.copy3{grid-template-columns:1fr}}
+.laitiere-abri{max-width:560px}
+.laitiere-abri figure{margin:0}
+@media (max-width:600px){.facts,.objs{grid-template-columns:1fr 1fr!important}.facts > :last-child:nth-child(odd),.objs > :last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 6px);justify-self:center}}
+.quote.slogan{font-family:var(--f-script);text-transform:none;font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.15;color:var(--magenta);max-width:none}
 .quote::before{content:"";position:absolute;left:0;top:.1em;bottom:.1em;width:4px;border-radius:2px;background:var(--magenta)}
 .steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:s}
 .steps li{display:grid;grid-template-columns:56px 1fr;gap:16px;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:16px;transition:border-color .2s,transform .2s}
@@ -256,11 +364,11 @@ footer .dot{color:var(--sandy);margin:0 .5em}
 .fact{background:var(--bordeaux);color:var(--on-dark-2);border-radius:18px;padding:18px 18px 20px}
 .fact b{display:block;font-family:var(--f-display);font-weight:400;font-size:2.4rem;color:var(--sandy);line-height:1;margin-bottom:6px;font-variant-numeric:tabular-nums}
 .fact span{font-size:.86rem}
-.fact.txt b{font-size:1.5rem;color:var(--cream)}
+.fact.txt b{font-size:1.5rem;color:var(--sandy)}
 .role-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
 .role-list li{padding-left:30px;position:relative;max-width:42em;color:var(--muted)}
 .role-list li::before{content:"";position:absolute;left:4px;top:.72em;width:12px;height:2px;background:var(--magenta)}
-.result{background:var(--bordeaux);color:var(--on-dark-2);border-radius:22px;padding:26px 28px;max-width:46em;position:relative;overflow:hidden}
+.result{background:var(--bordeaux);color:var(--on-dark-2);border-radius:22px;padding:26px 28px;max-width:none;position:relative;overflow:hidden}
 .result .who{color:var(--sandy);margin-bottom:10px}
 .result strong{color:var(--cream);font-weight:600}
 .result p+p{margin-top:10px}
@@ -290,13 +398,14 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
 .panels .cap b{font-family:var(--f-display);font-weight:400;text-transform:uppercase;font-size:1.1rem;display:block;line-height:1}
 .panels .cap small{font-size:.74rem;color:var(--muted)}
 .panels .n{position:absolute;top:10px;left:12px;font-family:var(--f-display);color:var(--cream);font-size:1.1rem;text-shadow:0 1px 6px rgba(0,0,0,.5)}
-@media (max-width:640px){.panels{flex-direction:column;height:auto}.panels button{height:64px;flex:none}.panels button.on{height:420px}}
+@media (max-width:640px){.panels{flex-direction:column;height:auto}.panels button{height:64px;flex:none}.panels button.on{height:420px;flex:none}}
 
 /* avant / après glissant */
 .compare{position:relative;max-width:440px;aspect-ratio:2/3;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:var(--bordeaux);--p:50%;user-select:none;touch-action:pan-y}
 .compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .compare .after{clip-path:inset(0 0 0 var(--p))}
 .compare .handle{position:absolute;top:0;bottom:0;left:var(--p);width:2px;background:var(--cream);transform:translateX(-1px)}
+@media (pointer:coarse){.compare input{pointer-events:none}.compare .handle{width:64px;transform:translateX(-50%);background:linear-gradient(var(--cream),var(--cream)) center/2px 100% no-repeat;touch-action:none;z-index:2}}
 .compare .handle::after{content:"↔";position:absolute;top:50%;left:50%;width:44px;height:44px;border-radius:50%;background:var(--cream);color:var(--bordeaux);display:grid;place-items:center;transform:translate(-50%,-50%);font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .compare input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
 .compare .tagL,.compare .tagR{position:absolute;top:12px;background:var(--cream);color:var(--bordeaux);font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:5px 10px;border-radius:999px;pointer-events:none}
@@ -330,9 +439,9 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
 @media (max-width:760px){.phone-wrap{grid-template-columns:1fr;justify-items:center}.phone-wrap > div:last-child{justify-self:stretch}}
 
 .storyboard{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.storyboard div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;min-width:0;position:relative}
-.storyboard .t{font-family:var(--f-display);color:var(--magenta);font-size:1.3rem;line-height:1;margin-bottom:8px}
-.storyboard p{font-size:.88rem;color:var(--muted)}
+.storyboard div{background:var(--bordeaux);border-radius:18px;padding:18px 18px 20px;min-width:0;position:relative}
+.storyboard .t{font-family:var(--f-display);color:var(--sandy);font-size:1.5rem;line-height:1;margin-bottom:8px}
+.storyboard p{font-size:.86rem;color:var(--on-dark-2)}
 @media (max-width:760px){.storyboard{grid-template-columns:1fr 1fr}}
 @media (max-width:420px){.storyboard{grid-template-columns:1fr}}
 .swatches{display:flex;gap:10px;flex-wrap:wrap}
@@ -370,7 +479,7 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
 .ew-time .when{position:absolute;top:0;left:0;font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--magenta)}
 .ew-time b{color:var(--bordeaux);font-weight:700;font-size:.95rem}
 .ew-time li > span:last-child{color:var(--muted);font-size:.84rem}
-.ew-slides{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ew-slides{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .ew-slides figure{margin:0;min-width:0}
 .ew-logo{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}
 .ew-evo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
@@ -391,7 +500,59 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
   .ew-time .when{position:static}
   .ew-evo{grid-template-columns:1fr 1fr}
 }
+@media (max-width:900px){.ew-slides{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.ew-slides{grid-template-columns:1fr}.ew-block{padding-block:40px}.ew-open{padding-block:40px 32px}}
+.ug{display:grid;gap:30px}
+.ug .label{color:var(--magenta);display:block;margin-bottom:12px}
+.ugs-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.ugs{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.ugs-c{height:130px;position:relative}
+.ugs-c span{position:absolute;left:14px;bottom:12px;font:700 .7rem var(--f-body);letter-spacing:.14em;color:rgba(255,255,255,.85)}
+.ugs-c.w{background:#fff;border-bottom:1px solid var(--line)}.ugs-c.lt span{color:rgba(62,8,17,.6)}
+.ugs-c.w span{color:var(--muted)}
+.ugs-t{padding:16px 18px 18px;display:grid;gap:6px}
+.ugs-t b,.ty-t b{font-family:var(--f-display);font-weight:400;text-transform:uppercase;color:var(--bordeaux);font-size:1.25rem;line-height:1}
+.ugs-t span,.ty-t span{color:var(--muted);font-size:.9rem;line-height:1.5}
+.ugs-row.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.tiers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.tiers li{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;gap:6px;align-content:start}
+.tiers li:first-child{border-color:var(--magenta)}
+.tiers .label{color:var(--magenta)}
+.tiers b{color:var(--bordeaux);font-weight:700}
+.tiers span:last-child{color:var(--muted);font-size:.9rem;line-height:1.5}
+.objs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.objs > div{background:var(--bordeaux);color:var(--on-dark-2);border-radius:18px;padding:18px 18px 20px;display:flex;flex-direction:column}
+.objs b{order:1;font-family:var(--f-display);font-weight:400;font-size:2.4rem;color:var(--sandy);line-height:1;margin-bottom:6px}
+.objs span:last-child{order:2;font-size:.86rem}
+.objs .label{order:3;color:var(--cream);opacity:.7;margin-top:auto;padding-top:12px}
+.objs span:last-child{flex:0 0 auto}
+.mix{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mix > div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.mix .label{color:var(--magenta);display:block;margin-bottom:6px}
+.mix p{color:var(--muted);font-size:.93rem;line-height:1.55;margin:0}
+.mix ul{margin:0;padding-left:18px;display:grid;gap:8px;color:var(--muted);font-size:.92rem;line-height:1.5}
+.mix li::marker{color:var(--magenta)}
+.mix li b{color:var(--bordeaux);font-weight:600}
+.brief-logo{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;align-items:stretch}
+.brief-logo figure{margin:0;min-width:0;display:grid;grid-template-rows:1fr auto;gap:8px}
+.brief-logo .paper img{max-height:340px;max-width:100%;height:auto}
+.brief{display:grid;gap:14px;align-content:center}
+.brief p{margin:0;color:var(--muted);line-height:1.65;font-size:1.05rem}
+.brief p strong{color:var(--bordeaux);font-weight:700}
+.brief .prompt{margin:0;font-size:.95rem;line-height:1.6}
+.brief .label{color:var(--magenta);display:block}
+.brief ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.brief li{display:grid;gap:2px}
+.brief b{color:var(--bordeaux);font-weight:700;font-size:.92rem}
+.brief li span{color:var(--muted);font-size:.9rem;line-height:1.5}
+@media (max-width:860px){.tiers{grid-template-columns:1fr}.mix,.brief-logo{grid-template-columns:1fr}.brief-logo figure{grid-template-rows:auto auto}.brief-logo .paper img{max-height:260px}}
+@media (max-width:600px){.fact b{font-size:2rem}}
+.ty-row{display:grid;grid-template-columns:1fr;gap:14px}
+.ty{border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden;display:grid;grid-template-rows:auto 1fr}
+.ty-img{padding:26px 26px 18px;border-bottom:1px solid var(--line)}
+.ty-img img{display:block;width:100%;height:auto;max-height:170px;object-fit:contain;object-position:left center}
+.ty-t{padding:16px 18px 18px;display:grid;gap:6px;align-content:start}
+@media (max-width:820px){.ugs-row,.ugs-row.two,.ty-row{grid-template-columns:1fr}.ugs{flex-direction:row}.ugs-c{height:auto;width:110px;flex:none}.ugs-c.w{border-bottom:0;border-right:1px solid var(--line)}}
 .ew-road{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;position:relative}
 .ew-road::before{content:"";position:absolute;left:10%;right:10%;top:48px;border-top:2.5px dashed var(--bordeaux);opacity:.5}
 .ew-road li{position:relative;display:grid;justify-items:center;align-content:start;text-align:center;gap:6px;min-width:0}
@@ -417,7 +578,7 @@ figcaption{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:
   .ew-road .n{margin-top:0}
   .ew-vars{grid-template-columns:1fr}
 }
-.ew-evo{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.ew-evo{grid-template-columns:repeat(2,minmax(0,1fr))!important}
 .ew-path{background:var(--bordeaux);color:var(--on-dark-2);border-radius:22px;padding:28px;display:grid;gap:22px}
 .ew-path-head .label{color:var(--sandy)}
 .ew-path h3{font-family:var(--f-display);text-transform:uppercase;font-weight:400;color:var(--cream);font-size:clamp(1.5rem,3vw,2rem);line-height:1;margin-top:6px}
@@ -493,7 +654,7 @@ dialog.lb.has-info #lb-cap{display:none}
         <button type="button" class="more-btn" id="more-btn" aria-controls="lede-more" aria-expanded="false">Lire la suite</button>
         <div class="cta">
           <a class="btn primary" href="#projets">Voir mes projets <span aria-hidden="true">→</span></a>
-          <a class="btn ghost" href="#contact">Me contacter</a>
+          <a class="btn ghost" href="Gabrielle-Hoarau-CV.pdf" target="_blank" rel="noopener" download data-cv>Télécharger mon CV <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg></a>
         </div>
       </div>
       <div class="arch-wrap">
@@ -555,6 +716,7 @@ dialog.lb.has-info #lb-cap{display:none}
         <div class="crow"><div style="min-width:0"><div class="k">E-mail</div><div class="v" id="mail">gabrielle.hoarau@ynov.com</div></div><button type="button" id="copy-mail">Copier</button></div>
         <div class="crow"><div style="min-width:0"><div class="k">Téléphone</div><div class="v" id="tel">+33 6 12 59 60 66</div></div><button type="button" id="copy-tel">Copier</button></div>
         <div class="crow"><div style="min-width:0"><div class="k">LinkedIn</div><div class="v">in/gabrielle-hoarau</div></div><a class="go" href="https://www.linkedin.com/in/gabrielle-hoarau/" target="_blank" rel="noopener">Ouvrir</a></div>
+        <div class="crow"><div style="min-width:0"><div class="k">CV</div><div class="v">Gabrielle-Hoarau-CV.pdf</div></div><a class="go" href="Gabrielle-Hoarau-CV.pdf" target="_blank" rel="noopener" download data-cv>Télécharger</a></div>
       </div>
     </div>
   </section>
@@ -571,16 +733,15 @@ dialog.lb.has-info #lb-cap{display:none}
 <template id="t-ethikwear">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Marque éco-responsable · E-commerce</p>
+    <p class="label">Création de marque</p>
     <h1>Ethikwear</h1>
-    <p class="tagline">tissé pour la mer</p>
-    <p class="sub">Inventer une marque de mode éco-responsable et préparer son lancement en ligne, de la première recherche jusqu'au site e-commerce.</p>
+    <p class="sub">Imaginer une marque engagée pour les océans et préparer son lancement, de la première recherche jusqu'au site e-commerce.</p>
     <dl class="fiche">
-      <div><dt>Contexte</dt><dd>Marque fictive</dd></div>
-      <div><dt>Durée</dt><dd>4 mois · Oct. 2025 – Fév. 2026</dd></div>
+      <div><dt>Contexte</dt><dd>Marque fictive de mode éco-responsable, vendue en ligne</dd></div>
+      <div><dt>Durée du projet</dt><dd>4 mois · Oct. 2025 – Fév. 2026</dd></div>
       <div><dt>Équipe</dt><dd>Binôme</dd></div>
-      <div><dt>Outils</dt><dd>Illustrator, Figma, Canva, Feedly</dd></div>
-      <div class="role"><dt>Mon rôle</dt><dd>Coordination, logo, site Figma</dd></div>
+      <div><dt>Outils</dt><dd>Illustrator, Figma, Canva, Feedly, Notion (Kanban et Gantt)</dd></div>
+      <div class="role"><dt>Mon rôle</dt><dd>Coordination, stratégie marketing, logo, maquette du site</dd></div>
     </dl>
   </div></section>
 
@@ -589,32 +750,25 @@ dialog.lb.has-info #lb-cap{display:none}
     <section class="ew-block rv">
       <h2 class="ew-h">Le point de départ</h2>
       <div class="ew-two">
-        <p>Pendant la veille, on a remarqué une chose : presque toutes les marques de mode éco-responsable parlent de la terre. Coton bio, agriculture raisonnée… Très peu parlent des océans.</p>
-        <p>C'est devenu notre angle. Avec Ethikwear, chaque achat permet de <strong>parrainer un corail artificiel</strong> et de suivre son évolution dans le récif. L'idée de départ vient de mon binôme, on l'a construite ensemble.</p>
+        <p>Pendant la veille, on a remarqué une chose : presque toutes les marques de mode éco-responsable centrent leur engagement sur les sols et les cultures : coton bio, agriculture raisonnée… Très peu s'engagent pour les océans.</p>
+        <p>C'est devenu notre angle. Avec Ethikwear, chaque achat permet de <strong>parrainer un corail artificiel</strong> et de suivre son évolution dans le récif.</p>
       </div>
-      <p class="quote">Tissé pour la mer, pensé pour demain</p>
-    </section>
-
-    <section class="ew-block rv">
-      <h2 class="ew-h">De la veille au site</h2>
-      <ol class="ew-road"><li class='c-sandy'><span class='ico'><svg viewBox='0 0 48 48' aria-hidden='true'><g fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><circle cx='21' cy='21' r='11'/><path d='M29 29 L38 38'/></g></svg></span><span class='n'>01</span><b>Veille</b><span class='d'>Tendances, concurrents et habitudes d'achat de la mode éco-responsable</span></li><li class='c-magenta'><span class='ico'><svg viewBox='0 0 48 48' aria-hidden='true'><g fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><circle cx='24' cy='24' r='14'/><circle cx='24' cy='24' r='7'/><circle cx='24' cy='24' r='1.5' fill='currentColor'/></g></svg></span><span class='n'>02</span><b>Stratégie marketing</b><span class='d'>SWOT, cible, persona, positionnement et marketing mix</span></li><li class='c-bordeaux'><span class='ico'><svg viewBox='0 0 48 48' aria-hidden='true'><g fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M10 20 V28 H16 L32 36 V12 L16 20 Z'/><path d='M16 28 L19 37'/><path d='M37 19 Q40 24 37 29'/></g></svg></span><span class='n'>03</span><b>Plan de communication</b><span class='d'>Canaux, plan média et KPI</span></li><li class='c-sandy'><span class='ico'><svg viewBox='0 0 48 48' aria-hidden='true'><g fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M14 34 L30 12 Q36 10 36 16 L18 38 Z'/><path d='M14 34 L11 39'/><path d='M22 28 L28 22'/></g></svg></span><span class='n'>04</span><b>Identité visuelle</b><span class='d'>Logo, déclinaisons et charte graphique</span></li><li class='c-magenta'><span class='ico'><svg viewBox='0 0 48 48' aria-hidden='true'><g fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><rect x='9' y='12' width='30' height='20' rx='2'/><path d='M19 38 H29'/><path d='M24 32 V38'/></g></svg></span><span class='n'>05</span><b>Site e-commerce</b><span class='d'>Du zoning à la maquette testée</span></li></ol>
-      <p class="ew-note">J'ai coordonné le binôme (organisation, échéances, relecture avant chaque rendu) tout en réalisant mes propres parties : <strong>le logo et toute la maquette du site</strong>. La veille, la stratégie et le plan de communication, on les a construits à deux.</p>
+      <p class="quote slogan">Tissé pour la mer, pensé pour demain</p>
+      <p class="ew-note">J'ai coordonné le binôme (organisation, échéances, relecture avant chaque rendu) tout en réalisant mes propres parties : <strong>la stratégie marketing, le logo et toute la maquette du site</strong>. La veille et le plan de communication, on les a construits à deux.</p>
     </section>
 
     <section class="ew-block rv">
       <h2 class="ew-h">Quelques pages de la stratégie</h2>
-      <p class="ew-p">Cliquez pour agrandir.</p>
       <div class="ew-slides">
         <figure><img class="zoom" data-lb-title="Le mapping concurrentiel" src="img/ew-slide-mapping.webp" alt="Slide Positionnement : mapping concurrentiel, Ethikwear en haut à droite (style tendance et bonne sensibilité écologique)" loading="lazy"><figcaption>Le mapping concurrentiel : tendance et écologique, la case presque vide</figcaption><div class="lb-src" hidden><p>On a placé une quinzaine de marques selon deux critères : le style (tendance ou non) et la sensibilité écologique.</p><ul><li>Les marques les plus tendance sont rarement éco-responsables : Shein, Zara, Bershka.</li><li>Les marques engagées ont souvent un style plus classique : People Tree, 1083, Loom.</li><li>Ethikwear se place en haut à droite, avec Armedangels et Thinking Mu : tendance <i>et</i> écologique, un espace encore peu occupé.</li></ul></div></figure>
         <figure><img class="zoom" data-lb-title="Léa, notre persona" src="img/ew-slide-persona.webp" alt="Slide Persona : Léa Lepain, 22 ans, architecte, budget 100 à 150 euros" loading="lazy"><figcaption>Léa, notre persona : exigeante sur le style comme sur l'éthique</figcaption><div class="lb-src" hidden><p>Léa Lepain, 22 ans, architecte. Elle vit en ville et part en montagne dès qu'elle peut (escalade, trail). Budget : 100 à 150 €.</p><ul><li><b>Ce qu'elle attend :</b> des vêtements techniques qui restent élégants, venant de marques vraiment engagées.</li><li><b>Ce qui la frustre :</b> la mode éthique terne, les marques « éco-conçues » sans preuves ni labels (GOTS, Fair Wear), les livraisons polluantes.</li></ul><p>Elle nous a servi de repère pour toutes les décisions qui ont suivi.</p></div></figure>
-        <figure><img class="zoom" data-lb-title="Le plan média" src="img/ew-slide-planmedia.webp" alt="Slide Plan média de janvier à avril 2026 : YouTube, TikTok, Instagram, Facebook, événements, influenceurs, site web" loading="lazy"><figcaption>Le plan média, calé sur la sortie de la collection</figcaption><div class="lb-src" hidden><p>Quatre mois de communication, de janvier à avril 2026, organisés semaine par semaine.</p><ul><li><b>Réseaux :</b> une publication par semaine sur YouTube (pubs), TikTok, Instagram et des groupes Facebook de niche.</li><li><b>Rythme :</b> présence soutenue en janvier, alternée en février et début mars, puis de nouveau chaque semaine à l'approche du lancement.</li><li><b>Temps fort :</b> la sortie de la collection (colonne rose), précédée d'un événement, avec tous les canaux mobilisés.</li><li><b>Influenceurs :</b> deux vagues, fin janvier puis de mi-mars à mi-avril autour du lancement.</li><li><b>Site web :</b> actif en continu à partir de mi-janvier.</li></ul></div></figure>
         <figure><img class="zoom" data-lb-title="Les KPI" src="img/ew-slide-kpi.webp" alt="Slide KPI : performance économique, impact environnemental, client et marque, engagement éthique" loading="lazy"><figcaption>Des KPI pour mesurer l'économique autant que l'impact</figcaption><div class="lb-src" hidden><p>Onze indicateurs en quatre familles, chacun avec un objectif chiffré et une fréquence de suivi.</p><ul><li><b>Économique :</b> chiffre d'affaires (+10 % par trimestre), marge brute (55 à 60 %), écoulement des stocks (≥ 85 %).</li><li><b>Environnement :</b> matières éco-certifiées (≥ 90 %), carbone du transport Pologne → Montpellier (−10 % par an), recyclage des chutes (≥ 80 %).</li><li><b>Client &amp; marque :</b> satisfaction (≥ 4,5/5), fidélisation (≥ 30 %), engagement sur les réseaux (+10 % par trimestre).</li><li><b>Social &amp; éthique :</b> fournisseurs conformes à la charte (100 %), formation RSE (≥ 10 h par an et par employé).</li></ul></div></figure>
       </div>
     </section>
 
     <section class="ew-block rv">
       <h2 class="ew-h">Le logo</h2>
-      <p class="ew-p">Je l'ai dessiné de A à Z sur Illustrator, avec ses déclinaisons. Il est en noir sur blanc pour utiliser le moins d'encre possible : pour une marque qui se dit responsable, ça me semblait logique. <strong>Passez la souris sur chaque version pour voir ce qu'elle représente.</strong></p>
+      <p class="ew-p">Je l'ai dessiné de A à Z sur Illustrator, avec ses déclinaisons. Il est en noir sur blanc pour consommer le moins d'encre possible, en cohérence avec l'engagement de la marque.</p>
       <div class="logo-grid">
         <button type="button" class="logo-tile main"><span class="lt-img"><img src="img/ew-logo.webp" alt="Logo principal Ethikwear"></span><span class="lt-tag">Logo principal</span>
           <span class="lt-over"><b>Logo principal</b><span>Les lettres E et W sont prises dans des branches de corail. Le motif évoque la croissance, la vie et la fragilité des récifs, au cœur de l'engagement de la marque.</span></span></button>
@@ -622,8 +776,28 @@ dialog.lb.has-info #lb-cap{display:none}
           <span class="lt-over"><b>Version typographique</b><span>Pour les supports officiels, les présentations et les petites vignettes du site, quand la lisibilité doit être maximale.</span></span></button>
         <button type="button" class="logo-tile"><span class="lt-img"><img src="img/ew-var-picto.webp" alt="Pictogramme EW" loading="lazy"></span><span class="lt-tag">Pictogramme</span>
           <span class="lt-over"><b>Pictogramme seul</b><span>Un signe fort et reconnaissable pour les petits formats : étiquettes, broderies, badges, icône du site.</span></span></button>
-        <button type="button" class="logo-tile dark"><span class="lt-img"><img src="img/ew-var-inverse.webp" alt="Versions inversées sur fond noir et bleu" loading="lazy"></span><span class="lt-tag">Versions inversées</span>
-          <span class="lt-over"><b>Versions inversées</b><span>Pour les fonds sombres. Le bleu profond rappelle l'océan et renforce la dimension écologique de la marque.</span></span></button>
+        <button type="button" class="logo-tile dark"><span class="lt-img"><img src="img/ew-var-inverse.webp" alt="Versions inversées sur fonds sombres" loading="lazy"></span><span class="lt-tag">Versions inversées</span>
+          <span class="lt-over"><b>Versions inversées</b><span>Pour les fonds sombres ou colorés : le logo garde son contraste et la finesse du tracé du corail.</span></span></button>
+      </div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">L'univers graphique</h2>
+      <p class="ew-p">Notre référence : le « less but better » du Bauhaus et de Dieter Rams. Pour une marque qui refuse le superflu, le design ne devait pas en rajouter. Pas de corail partout, pas d'effets superflus : <strong>un logo simple, des lignes claires et une palette réduite au minimum.</strong></p>
+      <div class="ug">
+        <div>
+          <span class="label">Les couleurs</span>
+          <div class="ugs-row two">
+            <div class="ugs"><div class="ugs-c" style="background:#000"><span>#000000</span></div><div class="ugs-t"><b>Noir</b><span>Le sérieux et la qualité. Imprimé en noir pur, sans mélange d'encres, pour en consommer moins.</span></div></div>
+            <div class="ugs"><div class="ugs-c w"><span>#FFFFFF</span></div><div class="ugs-t"><b>Blanc</b><span>Pas un simple fond : un espace qui laisse respirer les formes et rend le message net.</span></div></div>
+          </div>
+        </div>
+        <div>
+          <span class="label">La typographie</span>
+          <div class="ty-row">
+            <div class="ty"><div class="ty-img"><img src="img/ew-typo-myriad.webp" alt="Alphabet en Myriad" loading="lazy"></div><div class="ty-t"><b>Myriad</b><span>Pour le logo et la charte. Neutre, moderne et très lisible sur tous les écrans.</span></div></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -631,18 +805,10 @@ dialog.lb.has-info #lb-cap{display:none}
       <h2 class="ew-h">Le site, étape par étape</h2>
       <p class="ew-p">J'ai conçu toute la maquette sur Figma : page d'accueil, catalogue et fiche produit, en version ordinateur et mobile. Voici l'accueil à chaque étape :</p>
       <div class="ew-evo">
-        <figure><img class="zoom" data-lb-title="1. Le zoning" src="img/ew-evo-1-zoning.webp" alt="Zoning de la page d'accueil : blocs gris" loading="lazy"><figcaption><b>1.</b> Le zoning</figcaption><div class="lb-src" hidden><p>Les grands blocs de la page d'accueil, sans visuel ni texte. Le but : valider l'organisation de la page avant tout le reste.</p></div></figure>
-        <figure><img class="zoom" data-lb-title="2. Le wireframe" src="img/ew-evo-2-wireframe.webp" alt="Wireframe de la page d'accueil avec les vrais textes" loading="lazy"><figcaption><b>2.</b> Le wireframe</figcaption><div class="lb-src" hidden><p>La même structure, cette fois avec les vrais textes et la hiérarchie des informations, encore en noir et blanc.</p></div></figure>
-        <figure><img class="zoom" data-lb-title="3. La maquette finale" src="img/ew-evo-4-ui-v2.webp" alt="Maquette finale de la page d'accueil" loading="lazy"><figcaption><b>3.</b> La maquette finale</figcaption><div class="lb-src" hidden><p>La version aboutie, avec l'identité de la marque : couleurs, typographies, photos et logo.</p></div></figure>
+        <figure><img class="zoom" data-lb-title="1. Le wireframe" src="img/ew-evo-2-wireframe.webp" alt="Wireframe de la page d'accueil avec les vrais textes" loading="lazy"><figcaption><b>1.</b> Le wireframe</figcaption><div class="lb-src" hidden><p>La même structure, cette fois avec les vrais textes et la hiérarchie des informations, encore en noir et blanc.</p></div></figure>
+        <figure><img class="zoom" data-lb-title="2. La maquette finale" src="img/ew-evo-4-ui-v2.webp" alt="Maquette finale de la page d'accueil" loading="lazy"><figcaption><b>2.</b> La maquette finale</figcaption><div class="lb-src" hidden><p>La version aboutie, avec l'identité de la marque : couleurs, typographies, photos et logo.</p><p>Les catégories ont changé depuis le wireframe : les collections par saison ont laissé place à « Boutique Homme » et « Boutique Femme », suite aux retours des utilisateurs.</p></div></figure>
       </div>
-      <div class="ew-tests">
-        <span class="label">Ce que les tests utilisateurs ont changé</span>
-        <ul>
-          <li><b>Les accès au catalogue étaient trop petits.</b> J'ai ajouté de grandes images « Boutique Homme » et « Boutique Femme ».</li>
-          <li><b>On ne savait pas comment revenir au catalogue</b> depuis une fiche produit. J'ai ajouté un fil d'Ariane.</li>
-          <li><b>Le catalogue était trop rempli</b> pour une première collection. Je l'ai resserré.</li>
-        </ul>
-      </div>
+      <p class="ew-note">Entre le wireframe et la maquette, les catégories ont changé : les collections par saison ont laissé place à <strong>« Boutique Homme » et « Boutique Femme »</strong>. Les utilisateurs cherchaient d'abord un rayon homme ou femme, alors j'ai adapté la page à leurs retours.</p>
       <div class="ew-path">
         <div class="ew-path-head"><span class="label">À vous de tester</span><h3>Le parcours à suivre sur le prototype</h3></div>
         <ol>
@@ -657,7 +823,7 @@ dialog.lb.has-info #lb-cap{display:none}
 
     <section class="ew-block rv" style="border-bottom:0">
       <h2 class="ew-h">Ce que j'en retiens</h2>
-      <div class="result"><p>Construire une marque de bout en bout m'a appris que <strong>chaque choix découle du précédent</strong> : la veille donne l'angle, l'angle donne la cible, et la cible guide le ton, le logo et jusqu'au parcours sur le site.</p></div>
+      <div class="result"><p>L'angle trouvé pendant la veille, les océans, se retrouve à chaque étape : <strong>dans le slogan, dans le corail du logo et jusqu'au parrainage d'un corail à chaque achat</strong>. Construire une marque, c'est garder ce fil du début à la fin.</p></div>
     </section>
   </div>
 </template>
@@ -665,327 +831,316 @@ dialog.lb.has-info #lb-cap{display:none}
 <template id="t-brasserie-des-fleurs">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Repositionnement de marque · Projet individuel</p>
+    <p class="label">Repositionnement de marque</p>
     <h1>La Brasserie des Fleurs</h1>
-    <p class="tagline">un refuge floral</p>
-    <p class="sub">À Nîmes, la Brasserie des Fleurs est « le restaurant près de la gare » : on y entre parce qu'il est sur le chemin, rarement parce qu'on l'a choisi. Ma mission, seule et en quelques jours : en faire une adresse pour laquelle on est prêt à faire le chemin.</p>
+    <p class="sub">Donner une vraie identité au « restaurant près de la gare », de l'audit jusqu'au nouveau logo.</p>
     <dl class="fiche">
-      <div><dt>Établissement</dt><dd>Brasserie réelle, Nîmes</dd></div>
-      <div><dt>Période</dt><dd>Septembre 2026</dd></div>
+      <div><dt>Contexte</dt><dd>Vraie brasserie nîmoise, sans identité de marque</dd></div>
+      <div><dt>Durée du projet</dt><dd>5 jours · Septembre 2026</dd></div>
       <div><dt>Équipe</dt><dd>Seule</dd></div>
-      <div><dt>Outils</dt><dd>Canva, IA générative</dd></div>
-      <div class="role"><dt>Mon rôle</dt><dd>Tout : audit, stratégie, plan de com, logo</dd></div>
+      <div><dt>Outils</dt><dd>Notion, Photoshop, IA générative</dd></div>
+      <div class="role"><dt>Mon rôle</dt><dd>Audit, stratégie, plan de communication, logo</dd></div>
     </dl>
   </div></section>
   <div class="wrap">
-    <div class="chap rv"><header><span class="label">01 · L'audit</span><h2>Un bel emplacement, aucune identité</h2></header>
-      <div class="c">
-        <p class="quote">Comment passer d'une adresse sur notre chemin à une adresse pour laquelle on fait le chemin ?</p>
-        <p>J'ai commencé par un audit complet : emplacement et flux, offre, identité visuelle, présence en ligne, clientèle et démarche RSE. Le constat : <strong>un potentiel énorme mais inexploité</strong>. Aucune direction artistique, un logo jamais décliné, un site lent et non adapté au mobile, une page Facebook abandonnée depuis 2025, et rien dans le lieu qui rappelle les fleurs du nom.</p>
-        <div class="facts">
-          <div class="fact"><b>40 m</b><span>de la gare : un flux naturel énorme, mais des clients de passage</span></div>
-          <div class="fact"><b>20 h</b><span>heure de fermeture : la brasserie rate tout le public du soir</span></div>
-          <div class="fact"><b>4,1 / 5</b><span>sur 334 avis Google, peu pour une adresse installée depuis des décennies</span></div>
+    <section class="ew-block rv">
+      <h2 class="ew-h">Un bel emplacement, aucune identité</h2>
+      <p class="quote">Comment passer d'une adresse sur notre chemin à une adresse pour laquelle on fait le chemin ?</p>
+      <p>Premier constat de mon audit : la brasserie a <strong>un vrai potentiel, mais aucune identité marquée</strong>. Pas de direction artistique, un site lent et pensé pour l'ordinateur, et rien dans le lieu ne rappelle les fleurs de son nom.</p>
+      <p class="facts-src">Relevé pendant l'audit, sur place et en ligne</p>
+      <div class="facts">
+        <div class="fact"><b>40 m</b><span>de la gare : on y entre parce que c'est là, pas parce qu'on l'a choisi</span></div>
+        <div class="fact"><b>20 h</b><span>heure de fermeture : la brasserie passe à côté du public du soir</span></div>
+        <div class="fact"><b>2025</b><span>dernière activité sur la page Facebook, laissée à l'abandon</span></div>
+      </div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">La brasserie florale</h2>
+      <div class="pos-two">
+        <div class="pos-txt">
+  <p>Plutôt que de changer de nom, j'ai choisi de <strong>lui donner enfin du sens</strong>. La Brasserie des Fleurs devient un refuge floral moderne et lumineux : décoration végétale, fleurs comestibles à la carte, brunchs le week-end et horaires élargis pour capter le public du soir.</p>
+  <p class="quote">Un refuge floral moderne où l'on vient pour respirer, savourer et se reconnecter</p>
         </div>
+        <figure class="pos-mood"><img class="zoom" src="img/bdf-moodboard.webp" alt="Moodboard : terrasse végétale, fauteuils ocre, plats aux fleurs comestibles, palette ivoire, terracotta et vert olive" loading="lazy"><figcaption>Moodboard de l'ambiance visée</figcaption></figure>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">02 · Le positionnement</span><h2>La brasserie florale</h2></header>
-      <div class="c">
-        <p>Plutôt que de changer de nom, j'ai choisi de <strong>lui donner enfin du sens</strong>. La Brasserie des Fleurs devient un refuge floral moderne et lumineux : décoration végétale, fleurs comestibles à la carte, brunchs le week-end et horaires élargis pour capter le public du soir.</p>
-        <p class="quote">Un refuge floral moderne où l'on vient pour respirer, savourer et se reconnecter</p>
-        <p><strong>Cœur de cible :</strong> les familles nîmoises. <strong>Cible principale :</strong> les habitants du centre-ville et la Gen Z, qui cherchent des lieux chaleureux et « instagrammables ». <strong>Cible secondaire :</strong> les voyageurs, qu'il ne faut pas perdre, et les influenceurs food locaux.</p>
-        <figure class="shot"><img class="zoom" src="img/bdf-moodboard.webp" alt="Moodboard : terrasse végétale, fauteuils ocre, plats aux fleurs comestibles, palette ivoire, terracotta et vert olive" loading="lazy"><figcaption>Moodboard de l'ambiance visée</figcaption></figure>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">03 · Le plan de communication</span><h2>Faire connaître, faire aimer, faire venir</h2></header>
-      <div class="c">
-        <div class="facts">
-          <div class="fact"><b>60 %</b><span>de notoriété locale visée en 6 mois</span></div>
-          <div class="fact"><b>100</b><span>nouveaux avis Google et TripAdvisor, dont 70 % positifs</span></div>
-          <div class="fact"><b>35 %</b><span>de taux de réservation le soir et le week-end</span></div>
-        </div>
-        <ol class="steps">
-          <li><div><b>Canaux digitaux</b><span>Instagram et TikTok pour montrer la déco et les plats floraux, Google Maps optimisé (premier point d'entrée pour choisir un restaurant), site refait et responsive avec réservation simplifiée, Facebook pour les familles.</span></div></li>
-          <li><div><b>Canaux physiques</b><span>Affiches dans le quartier, signalétique florale repensée, presse locale pour gagner en crédibilité.</span></div></li>
-          <li><div><b>Actions</b><span>Teasing et shooting, événement de lancement, brunch et programme de fidélité, concours sur les réseaux sociaux, QR code pour laisser un avis en fin de repas.</span></div></li>
-          <li><div><b>Parcours client</b><span>Avant : réseaux, avis, site, affiches. Pendant : accueil, déco immersive, carte. Après : avis, fidélité, événements.</span></div></li>
-          <li><div><b>Pilotage</b><span>10 KPI chiffrés, par exemple +40 % de recherches Google « Brasserie des Fleurs » en un an, 20 000 personnes touchées chaque mois sur Instagram et TikTok, +25 % de réservations en ligne après la réouverture.</span></div></li>
-        </ol>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">04 · L'identité</span><h2>Une fleur de Nîmes dans une bouteille</h2></header>
-      <div class="c">
-        <p>Pour le logo, j'ai rédigé un brief précis et l'ai réalisé avec l'IA. Le symbole : <strong>la Crepis sancta, fleur emblématique de Nîmes</strong>, posée dans une bouteille de bière qui sert de vase. Un clin d'œil à la fois à la brasserie et au nom. Les lettres mêlent écriture manuscrite et capitales, dans une palette douce de vert sauge, rose poudré et taupe.</p>
-        <div class="gallery">
-          <figure><div class="paper"><img src="img/bdf-logo-crop.webp" alt="Logo La Brasserie des Fleurs : une fleur dans une bouteille, au-dessus du nom, et ses déclinaisons" loading="lazy" style="max-height:420px"></div><figcaption>Logo et déclinaisons</figcaption></figure>
-          <figure><img class="zoom" src="img/bdf-inspirations.webp" alt="Planche d'inspirations : logos floraux et palette vert sauge, rose poudré et taupe" loading="lazy"><figcaption>Inspirations et palette</figcaption></figure>
-        </div>
-        <div class="swatches"><span class="sw"><i style="background:#8a9979"></i>Vert sauge #8A9979</span><span class="sw"><i style="background:#ead3c3"></i>Rose poudré #EAD3C3</span><span class="sw"><i style="background:#6a5f59"></i>Taupe #6A5F59</span></div>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">05 · Mon rôle</span><h2>Un projet mené seule</h2></header>
-      <div class="c">
-        <ul class="role-list">
-          <li>J'ai réalisé <strong>l'audit et le diagnostic</strong> de l'établissement.</li>
-          <li>J'ai construit <strong>le nouveau positionnement</strong> : cibles, promesse, valeurs, concept et stratégie créative.</li>
-          <li>J'ai élaboré <strong>le plan de communication</strong> : objectifs SMART, canaux, actions, calendrier et KPI.</li>
-          <li>J'ai conçu <strong>le logo</strong> à partir d'un brief détaillé, réalisé avec l'IA.</li>
+      <p>Ce nouveau positionnement vise trois publics, du plus prioritaire au plus large :</p>
+      <div class="target">
+        <div class="t-rings" aria-hidden="true"><span class="r3"><span class="r2"><span class="r1"></span></span></span></div>
+        <ul class="t-legend">
+          <li class="l1"><span class="label">Cœur de cible</span><b>Les familles nîmoises</b><span>La priorité, vers qui vont l'essentiel des efforts.</span></li>
+          <li class="l2"><span class="label">Cible principale</span><b>Le centre-ville et la Gen Z</b><span>Ceux qui peuvent revenir souvent.</span></li>
+          <li class="l3"><span class="label">Cible secondaire</span><b>Voyageurs et influenceurs food</b><span>Un flux à ne pas perdre, et des relais pour le bouche-à-oreille.</span></li>
         </ul>
       </div>
-    </div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Faire connaître, faire aimer, faire venir</h2>
+      <p>Objectif d'ici un an : que la clientèle locale représente <strong>50 % du chiffre d'affaires</strong>, avec une note de <strong>4,5/5</strong> sur Google et TripAdvisor.<br>Pour y arriver, trois objectifs à six mois :</p>
+      <div class="objs">
+        <div><span class="label">Faire connaître</span><b>60 %</b><span>de notoriété dans le quartier</span></div>
+        <div><span class="label">Faire aimer</span><b>100</b><span>nouveaux avis, dont 70 % positifs</span></div>
+        <div><span class="label">Faire venir</span><b>35 %</b><span>de réservations le soir et le week-end</span></div>
+      </div>
+      <p>Pour atteindre ces objectifs, j'ai prévu des actions sur deux terrains :</p>
+      <div class="mix">
+        <div><span class="label">Communication en ligne</span><ul>
+          <li><b>Instagram et TikTok</b> pour donner envie aux gens de venir, en montrant la déco florale, les plats et l'ambiance.</li>
+          <li><b>Facebook</b> pour toucher les familles et relayer les événements locaux.</li>
+          <li><b>Google Maps</b>, premier réflexe pour choisir où manger : fiche optimisée, photos professionnelles, avis.</li>
+          <li><b>Un site refait</b>, adapté au mobile, avec une réservation simplifiée.</li>
+        </ul></div>
+        <div><span class="label">Communication sur place et dans le quartier</span><ul>
+          <li><b>Affiches et signalétique florale</b> pour rendre la transformation visible dans le quartier.</li>
+          <li><b>Un événement de lancement</b> pour créer un moment fort et faire parler du lieu.</li>
+          <li><b>Brunchs et programme de fidélité</b> pour donner envie aux familles de revenir.</li>
+          <li><b>Un QR code en fin de repas</b> pour récolter des avis, et la <b>presse locale</b> pour gagner en crédibilité.</li>
+        </ul></div>
+      </div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Une fleur de Nîmes dans une bouteille</h2>
+      <div class="brief-logo">
+        <div class="brief">
+          <p>Le logo a été généré par IA, mais à partir d'un <strong>brief que j'ai rédigé</strong> moi-même.</p>
+          <p>L'idée centrale : <strong>la Crepis sancta, fleur emblématique de Nîmes</strong>, posée dans une bouteille de bière qui sert de vase. Un clin d'œil à la brasserie et à son nom.</p>
+          <p>Pour le style, je voulais quelque chose de moderne et d'épuré, avec une touche poétique : <strong>floral, mais pas naïf</strong>.</p>
+        </div>
+        <div class="bdf-logos">
+          <figure class="m"><img src="img/bdf-logo-main.webp" alt="Logo principal : une fleur dans une bouteille au-dessus du nom La Brasserie des Fleurs" loading="lazy"><figcaption>Logo principal</figcaption></figure>
+          <figure><img src="img/bdf-logo-badge.webp" alt="Déclinaison en badge rond" loading="lazy"><figcaption>Badge</figcaption></figure>
+          <figure><img src="img/bdf-logo-mono.webp" alt="Monogramme BF sur fond vert sauge" loading="lazy"><figcaption>Monogramme</figcaption></figure>
+        </div>
+      </div>
+      <p>Les couleurs suivent l'ambiance visée : <strong>nature, douce et apaisante</strong>.</p>
+      <div class="ugs-row"><div class="ugs"><div class="ugs-c" style="background:#8A9979"><span>#8A9979</span></div><div class="ugs-t"><b>Vert sauge</b><span>La nature, qui entre enfin dans le restaurant.</span></div></div><div class="ugs"><div class="ugs-c lt" style="background:#EAD3C3"><span>#EAD3C3</span></div><div class="ugs-t"><b>Rose poudré</b><span>La douceur des fleurs, pour un lieu où l'on vient se poser.</span></div></div><div class="ugs"><div class="ugs-c" style="background:#6A5F59"><span>#6A5F59</span></div><div class="ugs-t"><b>Taupe</b><span>Une base chaleureuse et sobre, qui garde le logo lisible.</span></div></div></div>
+    </section>
+
+    <section class="ew-block rv" style="border-bottom:0">
+      <h2 class="ew-h">Donner enfin du sens au nom</h2>
+      <div class="result"><p>Le nom parlait déjà de fleurs : il fallait que <strong>le lieu, la carte et la communication le racontent enfin</strong>.</p><p>Ce projet m'a surtout appris que <strong>chaque détail compte</strong> : une enseigne, un horaire ou une page Facebook suffisent à changer l'image d'un lieu.</p></div>
+    </section>
+
   </div>
 </template>
 
 <template id="t-regards-croises">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Projet fil rouge #2 · Expo portraits &amp; IA</p>
+    <p class="label">Exposition photo &amp; IA</p>
     <h1>Regards croisés</h1>
-    <p class="tagline">l'humain et la machine</p>
-    <p class="sub">À quatre, on devait concevoir une exposition photo pour le campus en ajoutant une retouche IA à nos portraits. On a poussé la consigne plus loin : l'IA est devenue le sujet de l'expo.</p>
+    <p class="sub">Concevoir une exposition photo où l'IA n'est plus un simple outil de retouche, mais le sujet.</p>
     <dl class="fiche">
-      <div><dt>Contexte</dt><dd>Projet d'école</dd></div>
-      <div><dt>Période</dt><dd>Fév. – Juin 2026</dd></div>
+      <div><dt>Contexte</dt><dd>Exposition photo pour le campus</dd></div>
+      <div><dt>Durée du projet</dt><dd>Fév. – Juin 2026</dd></div>
       <div><dt>Équipe</dt><dd>4 personnes</dd></div>
-      <div><dt>Outils</dt><dd>Notion, Photoshop, Lightroom, IA</dd></div>
-      <div class="role"><dt>Mon rôle</dt><dd>Pilotage Notion, retouche, DA</dd></div>
+      <div><dt>Outils</dt><dd>Notion, Photoshop, IA</dd></div>
+      <div class="role"><dt>Mon rôle</dt><dd>Pilotage Notion, retouche, direction artistique</dd></div>
     </dl>
   </div></section>
   <div class="wrap">
-    <div class="chap rv"><header><span class="label">01 · Le concept</span><h2>Le trouble identitaire face à l'IA</h2></header>
-      <div class="c">
-        <p>Autour de nous, de plus en plus de gens parlent à une IA comme à un confident. On a voulu montrer ce que ça fait à l'identité : la dépendance affective, le dédoublement, l'isolement. Sans juger, juste en observant.</p>
-        <p class="quote">L'IA, partenaire ou concurrente de l'imagination humaine ?</p>
-        <p>Le parcours tient en <strong>5 tableaux</strong>, de l'image sociale maîtrisée à la dissolution du « soi » dans la machine. <strong>Cliquez sur un tableau pour l'ouvrir.</strong></p>
-        <div class="panels" id="panels">
-          <button type="button" class="on"><img src="img/rc-final-t1.webp" alt="Tableau 1, Identité perçue" loading="lazy"><span class="n">01</span><span class="cap"><b>Identité perçue</b><small>Une version contrôlée de soi</small></span></button>
-          <button type="button"><img src="img/rc-final-t2.webp" alt="Tableau 2, Confusion" loading="lazy" style="object-position:50% 30%"><span class="n">02</span><span class="cap"><b>Confusion</b><small>L'individu face au monde</small></span></button>
-          <button type="button"><img src="img/rc-final-t3.webp" alt="Tableau 3, Intimité virtuelle" loading="lazy"><span class="n">03</span><span class="cap"><b>Intimité virtuelle</b><small>Une relation intime avec l'écran</small></span></button>
-          <button type="button"><img src="img/rc-final-t4.webp" alt="Tableau 4, Face cachée" loading="lazy"><span class="n">04</span><span class="cap"><b>Face cachée</b><small>La perte de connexion</small></span></button>
-          <button type="button"><img src="img/rc-final-t5.webp" alt="Tableau 5, Fusion" loading="lazy"><span class="n">05</span><span class="cap"><b>Fusion</b><small>La perte d'humanité</small></span></button>
+    <section class="ew-block rv">
+      <h2 class="ew-h">Le trouble identitaire face à l'IA</h2>
+      <p>Au départ, la consigne était d'ajouter une retouche IA à nos portraits. On l'a poussée plus loin. Autour de nous, de plus en plus de gens parlent à une IA comme à un confident. On a voulu montrer ce que ça fait à l'identité : la dépendance affective, le dédoublement, l'isolement. Sans juger, juste en observant.</p>
+      <p class="quote">L'IA, partenaire ou concurrente de l'imagination humaine ?</p>
+      <p>Les <strong>5 tableaux</strong>, réalisés en équipe, racontent une seule histoire : <strong>comment une personne devient peu à peu dépendante de l'IA</strong>. Elle soigne d'abord son image, puis se sent seule au milieu des autres. Elle trouve alors du réconfort auprès de l'écran, jusqu'à perdre le contact avec elle-même et finir par ne faire plus qu'un avec la machine.</p>
+      <p><strong>Le tableau 2, « Confusion », est ma retouche.</strong></p>
+      <div class="panels" id="panels">
+        <button type="button" data-story="La version parfaitement contrôlée de soi. En arrière-plan, un double numérique magnifié montre comment l'IA amplifie nos idéaux : une identité lissée, rassurante, validée par les réseaux."><img src="img/rc-final-t1.webp" alt="Tableau 1, Identité perçue" loading="lazy"><span class="n">01</span><span class="cap"><b>Identité perçue</b><small>Une version contrôlée de soi</small></span></button>
+        <button type="button" data-story="L'individu face au monde qui l'entoure. Seule au milieu d'une foule floue, en noir et blanc pour renforcer le sentiment de solitude et d'isolement." class="on mine"><img src="img/rc-final-t2.webp" alt="Tableau 2, Confusion, ma retouche" loading="lazy" style="object-position:50% 30%"><span class="n">02</span><span class="mine-tag">Ma retouche</span><span class="cap"><b>Confusion</b><small>L'individu face au monde</small></span></button>
+        <button type="button" data-story="Une relation intime avec l'écran, vue depuis la place de l'IA. Elle ne ressent rien : elle analyse, traite des données. Mais en face, la personne sourit, persuadée d'être comprise."><img src="img/rc-final-t3.webp" alt="Tableau 3, Intimité virtuelle" loading="lazy"><span class="n">03</span><span class="cap"><b>Intimité virtuelle</b><small>Une relation intime avec l'écran</small></span></button>
+        <button type="button" data-story="L'instant où le contrôle s'effrite. Le regard se perd, une moitié du visage se fragmente en pixels et un second regard fantomatique apparaît."><img src="img/rc-final-t4.webp" alt="Tableau 4, Face cachée" loading="lazy"><span class="n">04</span><span class="cap"><b>Face cachée</b><small>La perte de connexion</small></span></button>
+        <button type="button" data-story="La fusion : le bleu froid de la technologie rencontre le rouge du vivant. Une entité hybride, où la machine et l'humain ne font plus qu'un."><img src="img/rc-final-t5.webp" alt="Tableau 5, Fusion" loading="lazy"><span class="n">05</span><span class="cap"><b>Fusion</b><small>La perte d'humanité</small></span></button>
+      </div>
+      <div class="panel-story" id="panel-story" aria-live="polite"><span class="ps-n"></span><div><b class="ps-t"></b><p class="ps-p"></p></div></div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Ma part du projet</h2>
+      <p>J'ai <strong>organisé tout le projet sur Notion</strong> et participé à chaque étape, de la veille jusqu'à l'identité de l'expo. Côté image, voici mes deux retouches :</p>
+      <div class="ba-row">
+        <div class="compare" style="--p:50%"><img src="img/rc-t2-brut.webp" alt="Photo d'origine, sortie de l'appareil : femme debout devant un drap éclairé en violet" loading="lazy"><img class="after" src="img/rc-t2-apres.webp" alt="Version exposée : la même femme seule au milieu d'une foule floue" loading="lazy"><span class="handle"></span><span class="tagL">Photo brute</span><span class="tagR">Version finale</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 2"></div>
+        <div class="txt">
+          <p class="label" style="color:var(--magenta)">Tableau 2 · Confusion</p>
+          <p>Le personnage seul face au monde. Je suis partie de la photo brute : sur <strong>Photoshop</strong>, j'ai effacé les plis du drap, agrandi le fond et passé l'image en noir et blanc. L'<strong>IA</strong> a ensuite ajouté une foule floue en mouvement, que j'ai retravaillée pour que l'incrustation paraisse naturelle.</p>
+          <p class="prompt">« Entoure le personnage d'une foule en mouvement. La foule doit être floue, on ne doit pas reconnaître les individus. Garde le personnage en noir et blanc. Je ne veux pas qu'il soit juste “décalqué”. Le sentiment à retrouver : il se sent perdu et seul au milieu de tout ce monde. »</p>
+          <p class="hint" style="text-align:left">Glissez pour comparer</p>
         </div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">02 · La démarche</span><h2>De la veille au kit de marque</h2></header>
-      <div class="c">
-        <ol class="steps">
-          <li><div><b>Veille technologique</b><span>Tendances de l'IA dans l'art visuel : retour de l'imperfection et du grain, cadre juridique du droit d'auteur, expositions de référence comme « Le monde selon l'IA » au Jeu de Paume.</span></div></li>
-          <li><div><b>Direction artistique</b><span>Moodboards individuels, puis un moodboard commun : visages fragmentés, glitch, doubles identités, lumières colorées.</span></div></li>
-          <li><div><b>Shooting et retouche</b><span>Photos brutes, retouche sur Photoshop et Lightroom, puis hybridation par IA avec des prompts documentés pour chaque tableau.</span></div></li>
-          <li><div><b>Pilotage agile</b><span>Sprints de 1 à 2 semaines, Kanban, diagramme de Gantt, daily stand-up et rétrospectives.</span></div></li>
-          <li><div><b>Kit de marque</b><span>Manifeste, logo, typographies, affiches, livret d'exposition, cartels avec QR code vers des contenus audio.</span></div></li>
-        </ol>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">03 · Retouche</span><h2>Mes deux images</h2></header>
-      <div class="c">
-        <div class="ba-row">
-          <div class="compare" style="--p:50%"><img src="img/rc-t2-avant.webp" alt="Ma retouche de la photo d'origine : femme debout devant un fond violet" loading="lazy"><img class="after" src="img/rc-t2-apres.webp" alt="Version exposée : la même femme seule au milieu d'une foule floue" loading="lazy"><span class="handle"></span><span class="tagL">Avant</span><span class="tagR">Après</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 2"></div>
-          <div class="txt">
-            <p class="label" style="color:var(--magenta)">Tableau 2 · Confusion</p>
-            <p>Le personnage seul face au monde. J'ai retravaillé le fond et la lumière sur <strong>Photoshop</strong>, puis j'ai demandé à l'<strong>IA</strong> de l'entourer d'une foule floue en mouvement, avant de fondre l'incrustation à la main.</p>
-            <p class="prompt">« Entoure le personnage d'une foule en mouvement. La foule doit être floue, on ne doit pas reconnaître les individus. Garde le personnage en noir et blanc. Je ne veux pas qu'il soit juste “décalqué”. Le sentiment à retrouver : il se sent perdu et seul au milieu de tout ce monde. »</p>
-            <p class="hint" style="text-align:left">Glissez pour comparer</p>
-          </div>
-        </div>
-        <div class="ba-row">
-          <div class="compare" style="--p:50%"><img src="img/rc-t4-avant.webp" alt="Photo d'origine : portrait en clair-obscur" loading="lazy"><img class="after" src="img/rc-t4-gabrielle.webp" alt="Ma version : portrait bleu nuit dont la moitié du visage se désintègre en pixels" loading="lazy"><span class="handle"></span><span class="tagL">Original</span><span class="tagR">Ma version</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 4"></div>
-          <div class="txt">
-            <p class="label" style="color:var(--magenta)">Tableau 4 · Face cachée</p>
-            <p>En dehors du rendu, j'ai proposé <strong>ma propre version</strong> de ce tableau, retouchée uniquement par IA : une palette bleu nuit et un regard vide pour accentuer la dissociation.</p>
-          </div>
+      <div class="ba-row">
+        <div class="compare" style="--p:50%"><img src="img/rc-t4-brut.webp" alt="Photo d'origine, sortie de l'appareil : portrait en contre-jour devant un fond clair" loading="lazy"><img class="after" src="img/rc-t4-gabrielle.webp" alt="Ma version : portrait bleu nuit dont la moitié du visage se désintègre en pixels" loading="lazy"><span class="handle"></span><span class="tagL">Photo brute</span><span class="tagR">Ma version</span><input type="range" min="0" max="100" value="50" aria-label="Comparer avant et après, tableau 4"></div>
+        <div class="txt">
+          <p class="label" style="color:var(--magenta)">Tableau 4 · Face cachée</p>
+          <p>Ce tableau devait montrer une personne qui s'efface. Dans <strong>ma propre version</strong>, j'ai voulu aller plus loin et montrer ce que cet effacement a de néfaste : son visage se désintègre en pixels, son regard se vide, et <strong>elle perd peu à peu son humanité</strong>. Le résultat en devient presque effrayant, et c'est voulu.</p>
         </div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">04 · Mon rôle</span><h2>Ce que j'ai fait</h2></header>
-      <div class="c">
-        <ul class="role-list">
-          <li>J'ai <strong>construit tout l'espace Notion du projet</strong> : tableau Kanban, tâches par livrable, suivi des sprints. C'est là que toute l'équipe savait où on en était.</li>
-          <li>J'ai participé à <strong>tous les livrables</strong> : veille, direction artistique, portfolio photo, identité visuelle. Seule la stratégie social media a été réalisée par d'autres membres.</li>
-          <li>J'ai <strong>retouché deux images</strong>, sur Photoshop et avec l'IA.</li>
-          <li>J'ai participé à la <strong>réunion de résolution de conflit</strong> de l'équipe, qui a permis de repartir sur des bases claires.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">05 · Bilan</span><h2>Ce que j'en retiens</h2></header>
-      <div class="c">
-        <div class="result"><p>L'exposition a été entièrement conçue (visuels, supports, plan de communication), mais elle n'a finalement pas eu lieu.</p><p>J'en retiens deux choses. Savoir <strong>documenter un travail créatif fait avec l'IA</strong> : chaque prompt et chaque retouche sont tracés, pour montrer la part humaine. Et qu'un projet d'équipe se joue aussi dans la communication : quand ça coinçait, une réunion franche a permis de repartir.</p></div>
-      </div>
-    </div>
+    </section>
+
+    <section class="ew-block rv" style="border-bottom:0">
+      <h2 class="ew-h">Une première avec l'IA</h2>
+      <div class="result"><p>J'en retiens deux choses. Savoir <strong>documenter un travail créatif fait avec l'IA</strong> : chaque prompt et chaque retouche sont tracés, pour montrer la part humaine. Et qu'un projet d'équipe se joue aussi dans la communication : quand ça coinçait, une réunion franche a permis de repartir.</p><p>Si c'était à refaire, je développerais davantage certains tableaux : on ne ressent pas toujours assez ce qu'on voulait faire passer. Mais pour une première utilisation de ces outils, <strong>j'en suis fière</strong>.</p></div>
+    </section>
+
   </div>
 </template>
 
 <template id="t-lunaret">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Challenge 48 h · Vrai client</p>
+    <p class="label">Challenge créatif</p>
     <h1>Zoo du Lunaret</h1>
-    <p class="tagline">escape the cage</p>
-    <p class="sub">Le zoo de Montpellier veut repenser son positionnement pour les années à venir. On avait 48 heures, à six, pour lui proposer quelque chose. Notre réponse : un escape game où l'on ne s'échappe pas, on libère.</p>
+    <p class="sub">Aider le zoo de Montpellier à repenser son positionnement pour les années à venir. Notre réponse : un escape game où l'on ne s'échappe pas, on libère.</p>
     <dl class="fiche">
-      <div><dt>Client</dt><dd>Zoo du Lunaret, Montpellier</dd></div>
-      <div><dt>Période</dt><dd>Mai 2026</dd></div>
-      <div><dt>Durée</dt><dd>48 heures</dd></div>
+      <div><dt>Contexte</dt><dd>Vrai client : le zoo de Montpellier</dd></div>
+      <div><dt>Durée du projet</dt><dd>48 heures · Mai 2026</dd></div>
       <div><dt>Équipe</dt><dd>6 personnes</dd></div>
-      <div class="role"><dt>Mon rôle</dt><dd>Landing page sur Figma</dd></div>
+      <div><dt>Outils</dt><dd>Figma</dd></div>
+      <div class="role"><dt>Mon rôle</dt><dd>Landing page mobile</dd></div>
     </dl>
   </div></section>
   <div class="wrap">
-    <div class="chap rv"><header><span class="label">01 · Le concept</span><h2>Un escape game inversé</h2></header>
-      <div class="c">
-        <p class="quote">Et si le but n'était pas de s'échapper… mais de les libérer ?</p>
-        <p>Dans « Escape The Cage », les visiteurs ne cherchent pas à sortir : ils <strong>accompagnent les animaux vers leur liberté</strong>. En parcourant le parc, ils explorent, observent et découvrent un message : préparer un futur où les zoos ne seront plus nécessaires.</p>
-        <div class="facts">
-          <div class="fact"><b>5 sens</b><span>chaque sens devient une clé pour résoudre les énigmes</span></div>
-          <div class="fact"><b>1 h 30</b><span>de parcours au maximum, accessible à tous</span></div>
-          <div class="fact"><b>2050</b><span>l'horizon où les zoos traditionnels pourraient disparaître</span></div>
+    <section class="ew-block rv">
+      <h2 class="ew-h">Un escape game inversé</h2>
+      <p class="quote">Et si le but n'était pas de s'échapper… mais de les libérer ?</p>
+      <p>Dans « Escape The Cage », les visiteurs ne cherchent pas à sortir : ils <strong>accompagnent les animaux vers leur liberté</strong>. En parcourant le parc, ils explorent, observent et découvrent un message : préparer un futur où les zoos ne seront plus nécessaires.</p>
+      <p class="facts-src">Le jeu en bref</p>
+      <div class="facts">
+        <div class="fact"><b>5 sens</b><span>La vue, l'ouïe, l'odorat, le toucher et le goût : chaque énigme se résout grâce à l'un d'eux.</span></div>
+        <div class="fact"><b>1 h 30</b><span>La durée du parcours dans le zoo, accessible aux enfants comme aux adultes.</span></div>
+        <div class="fact"><b>2050</b><span>Le message final : d'ici là, les zoos traditionnels pourraient ne plus exister.</span></div>
+      </div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Une landing page pensée pour le mobile</h2>
+      <div class="phone-wrap">
+        <div>
+          <div class="phone"><div class="scr" tabindex="0" aria-label="Landing page mobile, à faire défiler"><img src="img/lunaret-landing.webp" alt="Landing page mobile Escape The Cage : hero avec girafes, concept, expérience en 5 sens, infos pratiques, newsletter" loading="lazy"></div></div>
+          <p class="hint">Faites défiler l'écran</p>
+          <p style="text-align:center;margin-top:14px"><a class="btn ghost" href="https://www.figma.com/proto/UYdpD0xWP5iiTbevi4m7lX/Landing-Page---Challenge-48h?node-id=27-242&scaling=scale-down-width" target="_blank" rel="noopener">Voir sur Figma <span aria-hidden="true">↗</span></a></p>
+        </div>
+        <div style="display:grid;gap:18px;min-width:0">
+          <p style="color:var(--muted)">Dans l'équipe, c'est moi qui ai pris la landing page. Je l'ai pensée pour le mobile, parce que c'est là qu'une famille découvre une sortie et réserve. Chaque section répond à une question du visiteur :</p>
+          <ol class="steps">
+            <li><div><b>Accrocher</b><span>Une question en ouverture et un bouton « Découvrir le concept ».</span></div></li>
+            <li><div><b>Expliquer</b><span>Le principe de l'escape game inversé, puis l'expérience en 5 sens illustrée par des pictogrammes.</span></div></li>
+            <li><div><b>Rassurer</b><span>Les infos pratiques en un coup d'œil : durée, accessibilité, accès libre au parc.</span></div></li>
+            <li><div><b>Engager</b><span>« Soutenir le projet », la newsletter, puis les réseaux sociaux et les partenaires.</span></div></li>
+          </ol>
         </div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">02 · Ma partie</span><h2>La landing page</h2></header>
-      <div class="c">
-        <div class="phone-wrap">
-          <div>
-            <div class="phone"><div class="scr" tabindex="0" aria-label="Landing page mobile, à faire défiler"><img src="img/lunaret-landing.webp" alt="Landing page mobile Escape The Cage : hero avec girafes, concept, expérience en 5 sens, infos pratiques, newsletter" loading="lazy"></div></div>
-            <p class="hint">Faites défiler l'écran</p>
-            <p style="text-align:center;margin-top:14px"><a class="btn ghost" href="https://www.figma.com/proto/UYdpD0xWP5iiTbevi4m7lX/Landing-Page---Challenge-48h?node-id=27-242&scaling=scale-down-width" target="_blank" rel="noopener">Voir sur Figma <span aria-hidden="true">↗</span></a></p>
-          </div>
-          <div style="display:grid;gap:18px;min-width:0">
-            <p style="color:var(--muted)">Dans l'équipe, c'est moi qui ai pris la landing page. Je l'ai pensée pour le mobile, parce que c'est là qu'une famille découvre une sortie et réserve. Chaque section répond à une question du visiteur :</p>
-            <ol class="steps">
-              <li><div><b>Accrocher</b><span>Une question en ouverture et un bouton « Découvrir le concept ».</span></div></li>
-              <li><div><b>Expliquer</b><span>Le principe de l'escape game inversé, puis l'expérience en 5 sens illustrée par des pictogrammes.</span></div></li>
-              <li><div><b>Rassurer</b><span>Les infos pratiques en un coup d'œil : durée, accessibilité, accès libre au parc.</span></div></li>
-              <li><div><b>Engager</b><span>« Soutenir le projet », la newsletter, puis les réseaux sociaux et les partenaires.</span></div></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">03 · Bilan</span><h2>Ce que j'en retiens</h2></header>
-      <div class="c">
-        <div class="result"><p class="label who">Retour de la cliente</p><p>Elle a trouvé la proposition intéressante, mais elle attendait une réponse plus orientée marketing, alors que l'école nous avait demandé un projet créatif.</p><p>J'en retiens qu'il faut <strong>clarifier les attentes réelles du client dès le départ</strong>, même quand le temps presse : le brief écrit ne dit pas toujours tout.</p></div>
-      </div>
-    </div>
+    </section>
+
+    <section class="ew-block rv" style="border-bottom:0">
+      <h2 class="ew-h">Ce que la cliente attendait vraiment</h2>
+      <div class="result"><p class="label who">Retour de la cliente</p><p>Elle a trouvé la proposition intéressante, mais elle attendait une réponse plus orientée marketing, alors que l'école nous avait demandé un projet créatif.</p><p>J'en retiens qu'il faut <strong>clarifier les attentes réelles du client dès le départ</strong>, même quand le temps presse : le brief écrit ne dit pas toujours tout.</p></div>
+    </section>
+
   </div>
 </template>
 
 <template id="t-loly">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Rebranding · Exercice d'école</p>
+    <p class="label">Rebranding</p>
     <h1>Les Secrets de Loly</h1>
-    <p class="tagline">à fleur de boucle</p>
-    <p class="sub">Les Secrets de Loly soigne les cheveux bouclés depuis 2009 et passe au zéro déchet. Notre exercice : lui redonner un logo à la hauteur de ce virage. J'ai pris le logo en charge… et ouvert Illustrator pour la première fois.</p>
+    <p class="sub">Redonner un logo lisible et moderne à une marque de soins pour cheveux bouclés qui passe au zéro déchet.</p>
     <dl class="fiche">
-      <div><dt>Contexte</dt><dd>Exercice sur une marque réelle</dd></div>
-      <div><dt>Période</dt><dd>2025</dd></div>
+      <div><dt>Contexte</dt><dd>Vraie marque de soins capillaires, logo à repenser</dd></div>
+      <div><dt>Durée du projet</dt><dd>4 séances · Oct. 2025 – Fév. 2026</dd></div>
       <div><dt>Équipe</dt><dd>4 personnes</dd></div>
-      <div><dt>Outils</dt><dd>Illustrator, IA générative</dd></div>
+      <div><dt>Outils</dt><dd>Illustrator</dd></div>
       <div class="role"><dt>Mon rôle</dt><dd>Logo, posts et stories Instagram</dd></div>
     </dl>
-    <p class="note">Exercice scolaire, non commandé par la marque.</p>
   </div></section>
   <div class="wrap">
-    <div class="chap rv"><header><span class="label">01 · Le constat</span><h2>Un logo attachant mais peu lisible</h2></header>
-      <div class="c">
-        <p>L'ancien logo, une signature manuscrite rose, transmettait bien la douceur de la marque. Mais il devenait <strong>illisible en petit format</strong>, n'avait <strong>pas de symbole</strong> pour les réseaux sociaux et ne disait rien du virage écologique.</p>
-        <p class="quote">Transformer une signature douce en une empreinte lisible et moderne</p>
+    <section class="ew-block rv">
+      <h2 class="ew-h">Un logo attachant mais peu lisible</h2>
+      <p>En découvrant l'ancien logo, j'ai tout de suite aimé sa signature manuscrite rose : elle avait la douceur de la marque. Mais en le réduisant, je me suis rendu compte qu'il devenait <strong>illisible en petit format</strong>.<br>Il n'avait pas non plus de <strong>symbole pour les réseaux sociaux</strong>, et rien ne racontait son virage vers le zéro déchet.</p>
+      <p class="quote">Transformer une signature douce en une empreinte lisible et moderne</p>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Les pistes explorées</h2>
+      <p>Avant d'arriver au logo final, j'ai exploré plusieurs directions : un médaillon, des versions typographiques, différents papillons.</p>
+      <div class="pistes"><figure><img src="img/loly-piste-1.webp" alt="Piste : Médaillon illustré" loading="lazy"><figcaption>Médaillon illustré</figcaption></figure><figure><img src="img/loly-piste-3.webp" alt="Piste : Encadré" loading="lazy"><figcaption>Encadré</figcaption></figure><figure><img src="img/loly-piste-4.webp" alt="Piste : Papillon dans le « O »" loading="lazy"><figcaption>Papillon dans le « O »</figcaption></figure></div>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Un papillon dans le « O »</h2>
+      <p>Le nom devient lisible en capitales, et un papillon stylisé prend la place du « O » de LOLY. Seul, il sert d'icône sur les petits formats.</p>
+      <div class="loly-id">
+        <div class="li-main"><img src="img/loly-main.png" alt="Logo principal LES SECRETS DE LOLY en magenta" loading="lazy"><span class="li-tag">Logo principal</span></div>
+        <div class="li-word"><img src="img/loly-wordmark.png" alt="Logo secondaire LOLY" loading="lazy"><span class="li-tag">Logo secondaire</span></div>
+        <div class="li-icon"><img src="img/loly-icon.png" alt="Icône papillon" loading="lazy"><span class="li-tag">Icône</span></div>
+        <div class="li-black"><img src="img/loly-main.png" alt="Logo principal en version noire" loading="lazy"><span class="li-tag">Version noire</span></div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">02 · La démarche</span><h2>De l'analyse au logo</h2></header>
-      <div class="c">
-        <ol class="steps">
-          <li><div><b>Brief créatif</b><span>Cibles (cœur de cible : femmes de 18 à 28 ans aux cheveux bouclés), message clé, ton doux, positif et jamais culpabilisant.</span></div></li>
-          <li><div><b>Analyse du logo existant et de la concurrence</b><span>Activilong, Curl Mix, Noire Ô Naturel, Umaï, Garnier, Aroma-Zone…</span></div></li>
-          <li><div><b>Moodboard et pistes</b><span>Plusieurs croquis explorés avant de retenir une direction.</span></div></li>
-          <li><div><b>Logo final et charte</b><span>Typographie Myriad, magenta et noir, versions claires et foncées, icône pour le favicon et les réseaux sociaux.</span></div></li>
-        </ol>
-        <figure class="shot"><div class="paper"><img src="img/loly-pistes.webp" alt="Pistes de logo explorées : médaillon, versions typographiques, papillons" loading="lazy" style="max-height:380px"></div><figcaption>Les pistes explorées avant le logo final</figcaption></figure>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">03 · Le logo</span><h2>Un papillon dans le « O »</h2></header>
-      <div class="c">
-        <p>Le nom devient lisible en capitales, et un papillon stylisé prend la place du « O » de LOLY. Seul, il sert d'icône sur les petits formats.</p>
-        <div class="gallery">
-          <figure><div class="paper"><img src="img/loly-logo.webp" alt="Logo principal LES SECRETS DE LOLY en magenta" loading="lazy"></div><figcaption>Logo principal</figcaption></figure>
-          <figure><div class="paper"><img src="img/loly-logo-alt.webp" alt="Logo secondaire LOLY et icône papillon" loading="lazy"></div><figcaption>Logo secondaire et icône</figcaption></figure>
-        </div>
-        <div class="swatches"><span class="sw"><i style="background:#e52284"></i>Magenta #E52284</span><span class="sw"><i style="background:#000"></i>Noir #000000</span><span class="sw" style="font-style:italic">« La Nature à Fleur de Boucle »</span></div>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">04 · Réseaux sociaux</span><h2>Posts et stories</h2></header>
-      <div class="c">
-        <p>J'ai aussi réalisé les posts et les stories Instagram qui présentent la nouvelle identité et la gamme de shampooings solides. Les visuels ont été générés par IA.</p>
-        <figure class="shot"><img class="zoom" src="img/loly-insta.webp" alt="Post Instagram et deux stories pour Les Secrets de Loly" loading="lazy"><figcaption>Post et stories Instagram</figcaption></figure>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">05 · Bilan</span><h2>Mon premier logo</h2></header>
-      <div class="c">
-        <div class="result"><p>C'était <strong>ma toute première utilisation d'Illustrator</strong>. Avec le recul, je pousserais davantage le dessin du papillon. J'ai réinvesti ce que j'avais appris dans le logo d'<a href="#ethikwear">Ethikwear</a>, réalisé ensuite.</p></div>
-      </div>
-    </div>
+      <div class="ugs-row two"><div class="ugs"><div class="ugs-c" style="background:#E52284"><span>#E52284</span></div><div class="ugs-t"><b>Magenta</b><span>La douceur, l'énergie et le côté sensoriel des soins.</span></div></div><div class="ugs"><div class="ugs-c" style="background:#000"><span>#000000</span></div><div class="ugs-t"><b>Noir</b><span>L'élégance et la lisibilité, pour moderniser l'image.</span></div></div></div>
+      <p class="loly-slogan"><span>Le slogan</span>« La nature à fleur de boucle »</p>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Posts et stories</h2>
+      <p>J'ai aussi réalisé les posts et les stories Instagram qui présentent la nouvelle identité et la gamme de shampooings solides. Les visuels ont été générés par IA.</p>
+      <figure class="shot"><img class="zoom" src="img/loly-insta.webp" alt="Post Instagram et deux stories pour Les Secrets de Loly" loading="lazy"><figcaption>Post et stories Instagram</figcaption></figure>
+    </section>
+
+    <section class="ew-block rv" style="border-bottom:0">
+      <h2 class="ew-h">Mon premier logo</h2>
+      <div class="result"><p>C'était <strong>ma toute première utilisation d'Illustrator</strong>. J'en retiens surtout qu'il faut que je continue à m'exercer : c'est en pratiquant que le trait s'affine.</p></div>
+    </section>
+
   </div>
 </template>
 
 <template id="t-laitiere">
   <section class="case-hero"><div class="wrap">
     <a class="back" href="#projets">← Tous les projets</a>
-    <p class="label">Copy stratégie · Exercice d'école</p>
+    <p class="label">Copy stratégie</p>
     <h1>La Laitière</h1>
-    <p class="tagline">cueilli dans la nature</p>
-    <p class="sub">Un exercice de copy stratégie sur les yaourts La Laitière, avec une règle : pas d'IA pour trouver les idées. On a choisi de parler du naturel, et c'est mon idée de cascade qui a porté toute la campagne.</p>
+    <p class="sub">Une campagne pour les yaourts La Laitière, imaginée sans IA : le naturel, raconté par une cascade de lait.</p>
     <dl class="fiche">
-      <div><dt>Contexte</dt><dd>Exercice sur une marque réelle</dd></div>
-      <div><dt>Période</dt><dd>Avril 2026</dd></div>
-      <div><dt>Équipe</dt><dd>Groupe de 4 à 5</dd></div>
+      <div><dt>Contexte</dt><dd>Vraie marque de yaourts, campagne à imaginer</dd></div>
+      <div><dt>Durée du projet</dt><dd>1 séance · Avril 2026</dd></div>
+      <div><dt>Équipe</dt><dd>5 personnes</dd></div>
       <div><dt>Contrainte</dt><dd>Aucune IA pour les idées</dd></div>
-      <div class="role"><dt>Mon rôle</dt><dd>Idée de la cascade, scénario, accroche</dd></div>
+      <div class="role"><dt>Mon rôle</dt><dd>Concept créatif, scénario du spot, accroche</dd></div>
     </dl>
-    <p class="note">Exercice scolaire, non commandé par la marque.</p>
   </div></section>
   <div class="wrap">
-    <div class="chap rv"><header><span class="label">01 · Copy stratégie</span><h2>Axe, évocation, thème</h2></header>
-      <div class="c">
-        <div class="facts">
-          <div class="fact txt"><b>Axe</b><span>Montrer au public que le yaourt est naturel.</span></div>
-          <div class="fact txt"><b>Évocation</b><span>Douceur, lumière, sons de la nature, images lentes, la laitière comme repère de marque.</span></div>
-          <div class="fact txt"><b>Thème</b><span>Un yaourt sorti tout droit de la nature.</span></div>
-        </div>
-        <p class="quote">Tellement naturel qu'on pourrait le cueillir directement dans la nature</p>
-        <p>La consigne interdisait l'IA pour trouver les idées : <strong>le concept, le scénario et l'accroche sont 100 % humains</strong>. L'IA a seulement servi à produire les visuels de présentation.</p>
+    <section class="ew-block rv">
+      <h2 class="ew-h">La copy stratégie</h2>
+      <p>La consigne : <strong>choisir une caractéristique des yaourts La Laitière et construire une copy stratégie autour</strong>.<br>On a choisi leur côté <strong>naturel</strong>. Il fallait définir ce qu'on veut dire, l'ambiance à faire ressentir et l'idée qui relie le tout :</p>
+      <div class="facts">
+        <div class="fact txt"><b>Axe</b><span>Montrer au public que le yaourt est naturel.</span></div>
+        <div class="fact txt"><b>Évocation</b><span>Douceur, lumière, sons de la nature, images lentes, la laitière comme repère de marque.</span></div>
+        <div class="fact txt"><b>Thème</b><span>Un yaourt sorti tout droit de la nature.</span></div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">02 · Le spot TV</span><h2>25 secondes, en 4 plans</h2></header>
-      <div class="c">
-        <div class="storyboard">
-          <div><p class="t">Plan 1</p><p>Un paysage de montagne. Des vaches en hauteur, et une grande cascade de lait qui descend vers la vallée.</p></div>
-          <div><p class="t">Plan 2</p><p>Une roue à aube transforme le lait en yaourt : la fabrication, montrée de façon simple et douce.</p></div>
-          <div><p class="t">Plan 3</p><p>La cascade se divise en trois flux : vanille à gauche, nature au milieu, citron à droite. Chacun remplit son pot.</p></div>
-          <div><p class="t">Plan 4</p><p>Au premier plan, la laitière récupère un pot et le déguste.</p></div>
-        </div>
-        <p>La campagne se décline aussi en <strong>affiche</strong> (abribus et panneaux) et en <strong>publicité Instagram</strong>, dans les stories et le fil.</p>
-        <div class="gallery three">
-          <figure><img class="zoom" src="img/laitiere-affiche.webp" alt="Affiche La Laitière : trois cascades de yaourt nature, vanille et citron remplissent trois pots" loading="lazy"><figcaption>Affiche</figcaption></figure>
-          <figure><img class="zoom" src="img/laitiere-post.webp" alt="Post Instagram : les trois cascades de yaourt" loading="lazy"><figcaption>Post Instagram</figcaption></figure>
-          <figure><img class="zoom" src="img/laitiere-abribus.webp" alt="Affiche dans un abribus : la laitière tient un pot devant une cascade" loading="lazy"><figcaption>Abribus</figcaption></figure>
-        </div>
-        <p style="font-size:.8rem;font-style:italic">Visuels générés par IA pour la présentation.</p>
+      <p class="copy-concept"><span>Le concept</span>« Tellement naturel qu'on pourrait le cueillir directement dans la nature »</p>
+      <p>De là est née <strong>mon idée de cascade de lait</strong>, qui structure toute la campagne. J'ai aussi participé à l'écriture du scénario du spot et de l'accroche. La consigne interdisait l'IA pour trouver les idées : tout est 100 % humain, l'IA n'a servi qu'aux visuels de présentation.</p>
+    </section>
+
+    <section class="ew-block rv">
+      <h2 class="ew-h">Le spot TV, plan par plan</h2>
+      <p>La campagne repose sur <strong>un spot télé de 25 secondes</strong>. Voici son scénario, découpé en 4 plans :</p>
+      <div class="storyboard">
+        <div><p class="t">Plan 1</p><p>Un paysage de montagne. Des vaches en hauteur, et une grande cascade de lait qui descend vers la vallée.</p></div>
+        <div><p class="t">Plan 2</p><p>Une roue à aube transforme le lait en yaourt : la fabrication, montrée de façon simple et douce.</p></div>
+        <div><p class="t">Plan 3</p><p>La cascade se divise en trois flux : vanille à gauche, nature au milieu, citron à droite. Chacun remplit son pot.</p></div>
+        <div><p class="t">Plan 4</p><p>Au premier plan, la laitière récupère un pot et le déguste.</p></div>
       </div>
-    </div>
-    <div class="chap rv"><header><span class="label">03 · Mon rôle</span><h2>Ce que j'ai fait</h2></header>
-      <div class="c">
-        <ul class="role-list">
-          <li>J'ai eu <strong>l'idée de la cascade de lait</strong>, qui structure toute la campagne.</li>
-          <li>J'ai participé à l'écriture du <strong>scénario du spot</strong> et de <strong>l'accroche</strong>.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="chap rv"><header><span class="label">04 · Résultat</span><h2>Retour de la prof</h2></header>
-      <div class="c">
-        <div class="result"><p class="label who">Retour de l'enseignante</p><p class="big">« Une super idée, correctement réalisée. »</p></div>
-      </div>
-    </div>
+      <p>La campagne se décline aussi en <strong>affiche</strong>. Voici celle que j'ai réalisée, mise en situation dans un abribus.<br>L'idée : la laitière récolte le yaourt directement sous une cascade, au milieu des citronniers, pour montrer que <strong>le produit est tellement naturel qu'on peut le cueillir dans la nature</strong>.</p>
+      <div class="laitiere-abri"><figure><img class="zoom" src="img/laitiere-abribus.webp" alt="Affiche dans un abribus : la laitière tient un pot devant une cascade" loading="lazy"><figcaption>Affiche en abribus</figcaption></figure></div>
+      <p style="font-size:.8rem;font-style:italic">Visuel généré par IA pour la présentation.</p>
+    </section>
+
+    <section class="ew-block rv" style="border-bottom:0">
+      <h2 class="ew-h">Ce que j'en retiens</h2>
+      <div class="result"><p>J'ai aimé <strong>chercher l'idée à plusieurs</strong> : c'est en confrontant nos propositions qu'on a trouvé la cascade, puis qu'on l'a développée ensemble.</p><p>Et travailler <strong>sans IA</strong> m'a plu : sans réponse toute faite, on a dû puiser dans notre propre créativité.</p></div>
+    </section>
+
   </div>
 </template>
 
@@ -1074,9 +1229,16 @@ document.documentElement.classList.add('js');
   }
   function setupCase(){
     var pn=document.getElementById('panels');
+    if(pn){var ps=document.getElementById('panel-story');var upd=function(){var b=pn.querySelector('button.on');if(!b||!ps)return;ps.querySelector('.ps-n').textContent=b.querySelector('.n').textContent;ps.querySelector('.ps-t').innerHTML=b.querySelector('.cap b').textContent+(b.classList.contains('mine')?'<span class="ps-mine">MA RETOUCHE</span>':'');ps.querySelector('.ps-p').textContent=b.getAttribute('data-story')||''};upd();new MutationObserver(upd).observe(pn,{subtree:true,attributes:true,attributeFilter:['class']});}
     if(pn){[].forEach.call(pn.children,function(b){b.addEventListener('click',function(){[].forEach.call(pn.children,function(x){x.classList.remove('on')});b.classList.add('on')});b.addEventListener('mouseenter',function(){if(matchMedia('(hover:hover)').matches){[].forEach.call(pn.children,function(x){x.classList.remove('on')});b.classList.add('on')}})})}
     [].forEach.call(document.querySelectorAll('.logo-tile'),function(b){b.addEventListener('click',function(){var on=!b.classList.contains('on');[].forEach.call(document.querySelectorAll('.logo-tile'),function(x){x.classList.remove('on')});if(on)b.classList.add('on')})});
     [].forEach.call(document.querySelectorAll('.compare'),function(c){var r=c.querySelector('input');r.addEventListener('input',function(){c.style.setProperty('--p',r.value+'%')})});
+    [].forEach.call(document.querySelectorAll('.compare'),function(c){var r=c.querySelector('input'),h=c.querySelector('.handle');if(!h)return;var on=false;
+      function mv(e){var b=c.getBoundingClientRect();var v=Math.max(0,Math.min(100,(e.clientX-b.left)/b.width*100));r.value=v;c.style.setProperty('--p',v+'%')}
+      h.addEventListener('pointerdown',function(e){on=true;try{h.setPointerCapture(e.pointerId)}catch(x){}e.preventDefault()});
+      h.addEventListener('pointermove',function(e){if(on)mv(e)});
+      h.addEventListener('pointerup',function(){on=false});h.addEventListener('pointercancel',function(){on=false});
+    });
   }
   // révélation douce : les éléments sont visibles par défaut, seuls ceux sous la ligne de flottaison sont décalés puis révélés
   var io='IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'}):null;
@@ -1089,6 +1251,15 @@ document.documentElement.classList.add('js');
   }
   window.addEventListener('hashchange',route);route();
 
+  // CV : téléchargement via le viewer
+  (function(){
+    var dl=null;try{if(window.claude&&claude.use)claude.use("downloads").then(function(d){dl=d}).catch(function(){})}catch(e){}
+    document.addEventListener('click',function(e){
+      var a=e.target.closest('a[data-cv]');if(!a||!dl)return;
+      e.preventDefault();
+      fetch(a.getAttribute('href')).then(function(r){return r.blob()}).then(function(b){return dl.save({filename:'Gabrielle-Hoarau-CV.pdf',data:b})}).catch(function(err){if(err&&err.code&&err.code!=='declined'&&err.code!=='rate_limited')window.open(a.getAttribute('href'),'_blank')});
+    });
+  })();
   // lightbox
   var lb=document.getElementById('lb'),lbi=document.getElementById('lb-img'),lbc=document.getElementById('lb-cap'),lbs=document.getElementById('lb-stage');
   lbi.addEventListener('click',function(e){
